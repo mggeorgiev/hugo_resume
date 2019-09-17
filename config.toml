@@ -27,6 +27,7 @@ theme = "resume"
 
     showQr = true
 
+    # what social
 [[params.handles]]
     name = "Message"
     link = "message/"
@@ -47,6 +48,8 @@ theme = "resume"
     link = "https://twitter.com/mggeorgiev"
     icon = "fab fa-twitter"
 
+
+	    # what files
 [[params.files]]
     name = "CV"
     link = "files/MartinGeorgiev-SolutionArchitect-CV.pdf"
@@ -56,6 +59,13 @@ theme = "resume"
     name = "Virtual Card"
     link = "files/MartinGeorgiev-SolutionArchitect.vcf"
     icon = "fa fa-address-card"
+
+	    # what certificates
+[[params.certificates]]
+    name = "Microsoft Certified: Azure Solutions Architect Expert"
+    link = "https://www.youracclaim.com/badges/4f8574c0-9fb0-4181-8d85-e9a599685789/linked_in_profile"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Jun 2019 – Expires on 20 June 2021"
 
 [params.google.analytics]
     trackerID = "UA-110491290-1"
