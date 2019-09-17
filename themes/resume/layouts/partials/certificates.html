@@ -6,6 +6,17 @@
         <div class="subheading mb-3" id="dw">I regularly remove the certifications here and keep only these where a personal project can not demonstrate my skill. Example: there is no Oracle bellow as I have several projects, but there are T-SQL certificates.</div>
 
         <ul class="fa-ul mb-0">
+
+            {{ range .Site.Params.files }}
+            <li>
+                <i class="{{ .icon}}"></i> {{ .name }}
+            </li>
+            <span class="text-primary">
+                <a href="{{ .link }}" target="_blank">
+                    {{ .date }}
+                </a>
+            </span>
+            {{ end }}
             <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
                 Microsoft Certified: Azure Solutions Architect Expert
