@@ -6,7 +6,8 @@ theme = "resume"
 [params]
     firstName = "Martin"
     lastName = "Georgiev"
-    address = "Sofia, Bulgaria"
+	city = "Sofia"
+	country = "Bulgaria"
     phone = "(359) 89-84-666-89"
     contactNote = "Solutions Architect"
     profileImage = "img/profile.png"
@@ -16,18 +17,19 @@ theme = "resume"
     # what sections
     showExperience = true
     showEducation = true
-    showProjects = true
     showSkills = true
+    showProjects = true
     showOpenSource = false
     showPublications = false
     showCertificates = true
-    showSearch = true
+    showSearch = false
+	showBG = false
 
-    showQr = false
+    showQr = true
 
 [[params.handles]]
     name = "Message"
-    link = "https://www.martingeorgiev.com/files/mggeorgiev/"
+    link = "message/"
     icon = "far fa-envelope"
 
 [[params.handles]]
