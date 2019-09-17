@@ -1,9 +1,9 @@
 
 ---
 title: "Search"
-date: 2019-09-17T20:59:03+03:00
-draft: true
-#featured: true
+date: 2019-09-16T23:31:52+03:00
+#draft: true
+featured: true
 description: "Text used in summary on main page"
 tags: ["techtags","used","in","website"]
 image: ""
