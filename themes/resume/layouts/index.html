@@ -1,40 +1,40 @@
 {{ define "main" }}
-<div class="container-fluid p-0">
-   {{ partial "about.html" .}}
-   {{ if .Site.Params.showExperience }}
-        {{ partial "experience.html" . }}
-    {{ end }}
-    {{ if .Site.Params.showEducation }}
-        {{ partial "education.html" . }}
-    {{ end }}
-   {{ if .Site.Params.showSkills }}
-       {{ partial "skills.html" . }}
-   {{ end }}
-   {{ if .Site.Params.showProjects }}
-       {{ partial "projects.html" . }}
-   {{ end }}
-   {{ if .Site.Params.showCertificates }}
-        {{ partial "certificates.html" . }}
-    {{ end }}
-   {{ if .Site.Params.showOpenSource }}
-      {{ with .Site.GetPage "section" "projects/contributions" }}
-         {{ .Scratch.Set "sectionId" "open" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
-   {{ end }}
-   {{ if .Site.Params.showPublications }}
-      {{ with .Site.GetPage "section" "publications" }}
-         {{ .Scratch.Set "sectionId" "publications" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
-   {{ end }}
-   {{ if .Site.Params.showBlog }}
-      {{ with .Site.GetPage "section" "blog" }}
-         {{ .Scratch.Set "sectionId" "blog" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
+    <div class="container-fluid p-0">
+        {{ partial "about.html" .}}
+        {{ if .Site.Params.showExperience }}
+            {{ partial "experience.html" . }}
+        {{ end }}
+        {{ if .Site.Params.showEducation }}
+            {{ partial "education.html" . }}
+        {{ end }}
+        {{ if .Site.Params.showSkills }}
+            {{ partial "skills.html" . }}
+        {{ end }}
+        {{ if .Site.Params.showProjects }}
+            {{ partial "projects.html" . }}
+        {{ end }}
+        {{ if .Site.Params.showCertificates }}
+            {{ partial "certificates.html" . }}
+        {{ end }}
+        {{ if .Site.Params.showOpenSource }}
+            {{ with .Site.GetPage "section" "projects/contributions" }}
+                {{ .Scratch.Set "sectionId" "open" }}
+                {{ partial "sectionSummary" . }}
+            {{ end }}
+        {{ end }}
+        {{ if .Site.Params.showPublications }}
+            {{ with .Site.GetPage "section" "publications" }}
+                {{ .Scratch.Set "sectionId" "publications" }}
+                {{ partial "sectionSummary" . }}
+            {{ end }}
+        {{ end }}
+        {{ if .Site.Params.showBlog }}
+            {{ with .Site.GetPage "section" "blog" }}
+                {{ .Scratch.Set "sectionId" "blog" }}
+                {{ partial "sectionSummary" . }}
+            {{ end }}
+        {{ end }}
     </div>
-   {{ end }}
 {{ end }}
 
 
