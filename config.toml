@@ -67,5 +67,17 @@ theme = "resume"
     icon = "fa-li fa fa-trophy text-warning"
 	date = "Certification Date: Jun 2019 - Expires on 20 June 2021"
 
+[[params.certificates]]
+    name = "Microsoft Certified: Exam 535: Architecting Microsoft Azure Solutions"
+    link = "https://www.youracclaim.com/badges/3a1fb59a-d5ce-41be-b336-2c8bd3a5f5c9/linked_in_profile"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Jun 2018 - No Expiration date"
+
+[[params.certificates]]
+    name = "ITIL Intermediate Service Transition"
+    link = ""
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Feb 2014 - Present License 1002013033"
+
 [params.google.analytics]
     trackerID = "UA-110491290-1"
