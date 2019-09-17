@@ -8,6 +8,7 @@
             {{ .Site.Params.city }} · {{ .Site.Params.country }} · {{ .Site.Params.phone }} ·
             <a href="mailto:{{ .Site.Params.email }}"> {{ .Site.Params.email }}</a>
         </div>
+
         <p class="lead mb-5">
             {{ .Site.Params.description }}
         </p>
@@ -15,9 +16,9 @@
         <div class="social-icons float-md-left">
 
             {{ range .Site.Params.handles }}
-                <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}">
-                        <i class="{{ .icon}}"></i>
-                </a>
+            <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}">
+                <i class="{{ .icon}}"></i>
+            </a>
             {{ end }}
         </div>
 
@@ -29,4 +30,7 @@
             {{ end }}
         </div>
     </div>
-    </section>
+    {{ if .Site.Params.showQr }}
+        {{ partial "contact-qr-html" . }}
+    {{ end }}
+</section>
