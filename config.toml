@@ -35,15 +35,27 @@ theme = "resume"
 [[params.handles]]
     name = "LinkedIn"
     link = "https://www.linkedin.com/in/mggeorgiev/"
+	icon = "fab fa-linkedin-in"
 
 [[params.handles]]
     name = "GitHub"
     link = "https://github.com/mggeorgiev/"
+	icon = "fab fa-github"
 
 [[params.handles]]
     name = "Twitter"
     link = "https://twitter.com/mggeorgiev"
-    icon = "twitter"
+    icon = "fab fa-twitter"
+
+[[params.files]]
+    name = "CV"
+    link = "files/MartinGeorgiev-SolutionArchitect-CV.pdf"
+    icon = "far fa-file-pdf"
+
+[[params.files]]
+    name = "Virtual Card"
+    link = "files/MartinGeorgiev-SolutionArchitect.vcf"
+    icon = "fa fa-address-card"
 
 [params.google.analytics]
     trackerID = "UA-110491290-1"
