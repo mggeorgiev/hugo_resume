@@ -3,15 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://martingeorgiev.com/search/search/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://martingeorgiev.com/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://martingeorgiev.com/tags/in/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martingeorgiev.com/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martingeorgiev.com/search/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martingeorgiev.com/tags/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martingeorgiev.com/tags/techtags/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martingeorgiev.com/tags/used/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martingeorgiev.com/tags/website/</loc>
+    <lastmod>2019-09-16T23:31:52+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
