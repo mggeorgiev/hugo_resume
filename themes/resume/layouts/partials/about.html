@@ -13,43 +13,20 @@
         </p>
 
         <div class="social-icons float-md-left">
-            <a href="messageme.html"><i class="far fa-envelope"></i></a>
-
-            <a href="https://www.linkedin.com/in/mggeorgiev/" target="blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/mggeorgiev" target="blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://twitter.com/mggeorgiev" target="blank">
-                <i class="fab fa-twitter"></i>
-            </a>
 
             {{ range .Site.Params.handles }}
-            <li class="list-inline-item">
-                <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
-                    </span>
+                <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}">
+                        <i class="{{ .icon}}"></i>
                 </a>
-            </li>
             {{ end }}
-            <!--
-    <a href="#">
-      <i class="fab fa-facebook-f"></i>
-    </a>
-    -->
         </div>
 
         <div class="social-icons float-md-right float-sm-left">
-
-            <a href="files/MartinGeorgiev-SolutionArchitect-CV.pdf" target="blank">
-                <i class="far fa-file-pdf"></i>
+            {{ range .Site.Params.files }}
+            <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}">
+                <i class="{{ .icon}}"></i>
             </a>
-            <a href="files/MartinGeorgiev-SolutionArchitect.vcf" target="blank">
-                <i class="fa fa-address-card"></i>
-            </a>
+            {{ end }}
         </div>
     </div>
     </section>
