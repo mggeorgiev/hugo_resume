@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="On this site you can find information about Martin Georgiev's IT projects, approach to solving business problens, architectures.">
-    <meta name="author" content="Martin Georgiev">
+    <meta name="author" content="{{ .Site.params.author}}">
     <meta name="generator" content="Hugo 0.58.2" />
-    <meta property="og:title" content="Martin Georgiev" />
-    <meta property="og:image" content="https://martingeorgiev.com/img/profile.png" />
-    <meta name="description" content="Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud.">
-    <meta property="og:description" content="Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud." />
-    <meta name="author" content="Martin Georgiev">
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta property="og:image" content="{{ .params.profileImage | relURL }}" />
+    <meta name="description" content="{{ .Site.params.description }}">
+    <meta property="og:description" content=" {{ .Site.params.description }}" />
 
-    <title>{{ .Site.title}}</title>
+    <title>{{ .Site.Title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

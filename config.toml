@@ -2,8 +2,10 @@ baseURL = "https://martingeorgiev.com/"
 languageCode = "en-us"
 title = "Martin Georgiev"
 theme = "resume"
+canonifyURLs = false
 
 [params]
+    author = "Martin Georgiev"
     firstName = "Martin"
     lastName = "Georgiev"
 	city = "Sofia"
