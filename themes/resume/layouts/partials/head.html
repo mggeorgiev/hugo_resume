@@ -1,20 +1,18 @@
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110491290-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-110491290-1');
-    </script>
+    {{ partial "google.html" .}}
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="On this site you can find information about Martin Georgiev's IT projects, approach to solving business problens, architectures.">
     <meta name="author" content="Martin Georgiev">
+    <meta name="generator" content="Hugo 0.58.2" />
+    <meta property="og:title" content="Martin Georgiev" />
+    <meta property="og:image" content="https://martingeorgiev.com/img/profile.png" />
+    <meta name="description" content="Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud.">
+    <meta property="og:description" content="Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud." />
+    <meta name="author" content="Martin Georgiev">
 
-    <title>Martin Georgiev's projects</title>
+    <title>{{ .Site.title}}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,4 +25,5 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
+    <meta name="generator" content="Hugo 0.58.2" />
 </head>
