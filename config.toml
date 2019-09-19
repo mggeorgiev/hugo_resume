@@ -24,7 +24,7 @@ canonifyURLs = false
     showOpenSource = false
     showPublications = false
     showCertificates = true
-    showSearch = false
+    showSearch = true
 	showBG = false
 
     showQr = true
