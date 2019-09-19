@@ -23,6 +23,20 @@
         </div>
 
         <div class="social-icons float-md-right float-sm-left">
+            <a href="#myModal" data-toggle="modal" data-target="#myModal">
+                <i class="fas fa-qrcode"></i>
+            </a>
+
+            <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        {{ if .Site.Params.showQr }}
+                            {{ partial "contact-qr.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
             {{ range .Site.Params.files }}
             <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}">
                 <i class="{{ .icon}}"></i>
@@ -30,7 +44,4 @@
             {{ end }}
         </div>
     </div>
-    {{ if .Site.Params.showQr }}
-        {{ partial "contact-qr.html" . }}
-    {{ end }}
 </section>
