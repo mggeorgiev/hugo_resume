@@ -13,7 +13,9 @@
             {{ .Site.Params.description }}
         </p>
 
-        
+        {{ if .Site.Params.showHandles }}
+            {{ partial "social_icons.html" . }}
+        {{ end }}
 
     </div>
 </section>

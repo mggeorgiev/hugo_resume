@@ -17,6 +17,7 @@ canonifyURLs = true
     description = "Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud."
     favicon = "images/favicon.ico"
     # what sections
+    showHandles = true
     showExperience = true
     showEducation = true
     showSkills = true
@@ -26,7 +27,6 @@ canonifyURLs = true
     showCertificates = true
     showSearch = true
 	showBG = false
-
     showQr = true
 
     # what social
