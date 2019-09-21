@@ -32,7 +32,7 @@ canonifyURLs = true
     # what social
 [[params.handles]]
     name = "Message"
-    link = "message/"
+    link = "messageme.html"
     icon = "far fa-envelope"
 
 [[params.handles]]
