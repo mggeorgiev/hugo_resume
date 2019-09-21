@@ -2,7 +2,7 @@ baseURL = "https://martingeorgiev.com/"
 languageCode = "en-us"
 title = "Martin Georgiev"
 theme = "resume"
-canonifyURLs = false
+canonifyURLs = true
 
 [params]
     author = "Martin Georgiev"
