@@ -77,9 +77,57 @@ canonifyURLs = true
 
 [[params.certificates]]
     name = "ITIL Intermediate Service Transition"
-    link = ""
+    link = "files/ITIL_SERVICE_TRANSITION.pdf"
     icon = "fa-li fa fa-trophy text-warning"
 	date = "Certification Date: Feb 2014 - Present License 1002013033"
+
+[[params.certificates]]
+    name = "ITIL V3 Foundation"
+    link = "files/ITIL_V3.pdf"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: May 2010 – Present License 00136963"
+
+[[params.certificates]]
+    name = "Splunk Certified User"
+    link = "https://splunkcommunities.force.com/customers/apex/customers/apex/EDU_DownloadCertificate?id=a1O0b000004H1c8&retURL=/a1O0b000004H1c8"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Mar 2018 – Present License Cert-231017"
+
+[[params.certificates]]
+    name = "MTCNA - Mikrotik"
+    link = "https://mikrotik.com/training/certificates/c101759c557b64b4b9fd"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Sep 2017 – Sep 2020 License 1709NA1759"
+
+[[params.certificates]]
+    name = "Intermediate Python for Data Science Course"
+    link = ""
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Jan 2018 – Present License 4813462"
+
+[[params.certificates]]
+    name = "edX Verified Professional Certificate for DAT201x: Querying with Transact- SQL"
+    link = "https://courses.edx.org/certificates/2368f398f413451d95ea37188c026a95"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Jul 2017 – Present License 2368f398f413451d95ea37188c026a95"
+
+[[params.certificates]]
+    name = "edX Verified Professional Certificate for DAT222x: Essential Statistics for Data Analysis using Excel"
+    link = "https://courses.edx.org/certificates/68d5c520c5374dcebff6924071ed0df3"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: Jun 2017 – Present License 68d5c520c5374dcebff6924071ed0df3"
+
+[[params.certificates]]
+    name = "edX Professional Certificate for Windows PowerShell Fundamentals"
+    link = "https://s3.amazonaws.com/verify.edx.org/downloads/3518418274064a9b8f859bef30b03c52/Certificate.pdf"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: May 2015 – Present"
+
+[[params.certificates]]
+    name = "edX Verified Certificate for Introduction to Linux"
+    link = "https://s3.amazonaws.com/verify.edx.org/downloads/9401b4788ef44624ad10b6310ca5420c/Certificate.pdf"
+    icon = "fa-li fa fa-trophy text-warning"
+	date = "Certification Date: May 2015 – Present"
 
 [params.google.analytics]
     trackerID = "UA-110491290-1"
