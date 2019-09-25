@@ -1,28 +1,28 @@
 <head>
-    {{ partial "google.html" .}}
+    {{- partial "google.html" . -}}
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="On this site you can find information about Martin Georgiev's IT projects, approach to solving business problens, architectures.">
-    <meta name="author" content="{{ .Site.params.author}}">
+    <meta name="author" content="{{ .Site.Params.author}}">
     <meta name="generator" content="Hugo 0.58.2" />
     <meta property="og:title" content="{{ .Site.Title }}" />
-    <meta property="og:image" content="{{ .params.profileImage | relURL }}" />
-    <meta name="description" content="{{ .Site.params.description }}">
-    <meta property="og:description" content=" {{ .Site.params.description }}" />
+    <meta property="og:image" content="{{ .Params.profileImage | relURL }}" />
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta property="og:description" content=" {{ .Site.Params.description }}" />
 
     <title>{{ .Site.Title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="/css/resume.min.css" rel="stylesheet">
 
     <meta name="generator" content="Hugo 0.58.2" />
 </head>
