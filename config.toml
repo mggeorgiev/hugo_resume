@@ -12,10 +12,10 @@ canonifyURLs = true
 	country = "Bulgaria"
     phone = "(359) 89-84-666-89"
     contactNote = "Solutions Architect"
-    profileImage = "img/profile.png"
+    profileImage = "/img/profile.png"
     email = "mggeorgiev@gmail.com"
     description = "Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud."
-    favicon = "images/favicon.ico"
+    favicon = "/images/favicon.ico"
     # what sections
     showHandles = true
     showExperience = true
