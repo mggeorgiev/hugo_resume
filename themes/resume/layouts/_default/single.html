@@ -9,7 +9,7 @@
     <meta name="description" content="On this page you can find information concerning the benefits and capabilities of the Fleet Management project.">
     <meta name="author" content="Martin Georgiev">
 
-    <title>Fleet management project</title>
+    <title> {{ .Title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,8 +30,8 @@
 
     <header class="bg-dark text-white">
         <div class="container text-center">
-            <h1>FLEET MANAGEMENT</h1>
-            <p class="lead">Manage effectively and efficiently vehicle fleets</p>
+            <h1>{{ .Title }}</h1>
+            <p class="lead">{{ .Description }}</p>
         </div>
     </header>
 
@@ -43,15 +43,7 @@
                     <h2>About the project</h2>
 
                     <p class="lead">
-                        Manage a vehicle is something that most owners experience (except if they have hired someone to do it on their behalf).
-                        Some even enjoy it, despite that most tasks are mundane.
-                        Adding cars to form a fleet comes with an overhead.
-                    </p>
-
-                    <p class="lead">
-                        The application keeps log of both refueling and maintenance.
-                        Uses statistics to find trends, outrliers, recommend actions based on histoirical data and predict future expences.
-                        Also reminds for upcomming activities based on flexible business logic. Maintenance requires approval prior to archiving.
+                        {{ .Params.about }}
                         <br>
                         <a href=""><i class="far fa-thumbs-up"></i></a>
                         <a href="../files/FLEET-MANAGEMENT-PBI.pdf" target="_blank"><i class="fas fa-wave-square"></i></a>
@@ -69,7 +61,7 @@
                 <div class="col-lg-8 mx-auto">
                     <h2>Motivation</h2>
                     <p class="lead">
-                        Automating the operation allows the usage of repetitive processes, good practices, and the collection of data that can be used for business inteligence or data mining.
+                        {{ .Params.motivation}}
                     </p>
                     <p class="lead">
                         The application started as a Google sheets file. In this incarnation, it allows the management of multiple vehicles, provide statistical information, and visualizations.
@@ -95,21 +87,11 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 id="challenges">Challenges</h2>
+                    {{ range .Params.challenges }}
                     <p class="lead">
-                        The <i>first</i> challenge was to build a data layer that could be used for statistical analysis of data.
+                        {{ . }}
                     </p>
-
-                    <p class="lead">
-                        The <i>second</i> challenge was to be able to apply statistical analysis on the whole dataset while retaining each user's data private.
-                    </p>
-
-                    <p class="lead">
-                        The <i>third</i> challenge was to allow secure usage from multiple users on desktops and mobile devices.
-                    </p>
-
-                    <p class="lead">
-                        The <i>fourth</i> challenge was to use architecture and design that allow changes.
-                    </p>
+                    {{ end }}
                 </div>
             </div>
         </div>
@@ -120,19 +102,12 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Approach</h2>
-
+                    {{ range .Params.approach }}
                     <p class="lead">
-                        Considering the nature of the application - a database one, I decided to use the Oracle 11g XE that comes with a preinstalled APEX and a web server, that unfortunately requires a license to use SSL.
+                        {{ . }}
                     </p>
-
-                    <p class="lead">
-                        To use SSL I deployed an Apache running on Ubuntu server 16.04, that acts as a reverse proxy and SSL offloader. The certificate was obtained from Let's Encrypt.
-                    </p>
-
-                    <p class="lead">
-                        Power BI report is available and could be updated from a reporting server, while the later is feed from the application database.
-                        <a href="../files/FLEET-MANAGEMENT-PBI.pdf" target="_blank"><i class="fas fa-wave-square"></i></a>
-                    </p>
+                    {{ end }}
+                    <a href="../files/FLEET-MANAGEMENT-PBI.pdf" target="_blank"><i class="fas fa-wave-square"></i></a>
                 </div>
             </div>
         </div>
