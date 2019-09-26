@@ -18,7 +18,7 @@ canonifyURLs = true
     favicon = "/images/favicon.ico"
     # what sections
     showHandles = true
-    showConmetence = true
+    showCompetence = true
     showExperience = true
     showEducation = true
     showSkills = true
