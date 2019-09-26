@@ -41,9 +41,11 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>About the project</h2>
-
+                    {{ range .Params.about }}
                     <p class="lead">
-                        {{ .Params.about }}
+                        {{ . }}
+                    </p>
+                    {{ end }}
                         <br>
                         <a href=""><i class="far fa-thumbs-up"></i></a>
                         <a href="../files/FLEET-MANAGEMENT-PBI.pdf" target="_blank"><i class="fas fa-wave-square"></i></a>
@@ -60,9 +62,11 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Motivation</h2>
+                    {{ range .Params.motivation }}
                     <p class="lead">
-                        {{ .Params.motivation}}
+                        {{ . }}
                     </p>
+                    {{ end }}
                     <p class="lead">
                         The application started as a Google sheets file. In this incarnation, it allows the management of multiple vehicles, provide statistical information, and visualizations.
                         <br>

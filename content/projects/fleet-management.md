@@ -2,9 +2,13 @@
 title: "FLEET MANAGEMENT"
 date: 2019-09-21T23:47:48+03:00
 draft: false
-description: "Intelligent management and process automation for condominia in the republic of Bulgaria."
-about: "The application keeps log of income and outcome cost. Automates budgeting. Post and distribute messages accros different roles within homeonewners assossiation. Facilitates trhe management of the homeowners book and decisions log. The analytical module provides prediction based on historical data."
-motivation: "Automating the operation allows the usage of repetitive processes, good practices, and the collection of data that can be used for business inteligence or data mining."
+description: "Manage effectively and efficiently vehicle fleets."
+about: ["Manage a vehicle is something that most owners experience (except if they have hired someone to do it on their behalf). Some even enjoy it, despite that most tasks are mundane. Adding cars to form a fleet comes with an overhead."
+        ,"The application keeps log of both refueling and maintenance. Uses statistics to find trends, outrliers, recommend actions based on histoirical data and predict future expences. Also reminds for upcomming activities based on flexible business logic. Maintenance requires approval prior to archiving."]
+motivation: 
+        ["Automating the operation allows the usage of repetitive processes, good practices, and the collection of data that can be used for business inteligence or data mining."
+        ,"The application started as a Google sheets file. In this incarnation, it allows the management of multiple vehicles, provide statistical information, and visualizations."
+        ,"As the interest in the product increased, I realized that the shortcomings in the platform limit the usability. Each new customer had to have its own version of the application and aggregating the information from multiple files results in an overhead. Although google sheets are available in a mobile version as well, the experience is very different compared with the desktop version."]
 challenges: ["The first challenge was to build a data layer that could be used for statistical analysis of data."
             ,"The second challenge was to be able to apply statistical analysis on the whole dataset while retaining each user's data private."
             ,"The third challenge was to allow secure usage from multiple users on desktops and mobile devices."
