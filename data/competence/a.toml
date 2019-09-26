@@ -1,0 +1,11 @@
+[[param.competence]]
+name = "plan"
+items = ["Architecture Design"
+        ,"Innovating"
+        ,"Documentation Production"
+        ,"Systems Engineering"
+        ,"Information and Knowledge Management"
+        ,"Forecast Development"
+        ,"Needs Identification"
+        ,"Process Improvement"
+        ]

@@ -1,0 +1,20 @@
+<hr class="m-0">
+    
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="competence">
+    <div class="w-100">
+        <h2 class="mb-5">Competence</h2>
+
+        {{ range .Site.Data.competence }}
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+                <h3 class="mb-0">{{ .name }}</h3>
+                <div class="subheading mb-3"></div>
+                <div>Information technologies</div>
+                {{ range .Site.Data.competence.items }}
+                <p>GPA: 97 %</p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

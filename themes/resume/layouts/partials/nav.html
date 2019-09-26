@@ -13,6 +13,11 @@
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
             </li>
+            {{ if .Site.Params.showCompetence }}
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="index.html#competence">Competence</a>
+            </li>
+            {{ end }}
             {{ if .Site.Params.showExperience }}
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="index.html#experience">Experience</a>
