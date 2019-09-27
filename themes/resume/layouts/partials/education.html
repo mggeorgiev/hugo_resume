@@ -4,40 +4,13 @@
     <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-                <h3 class="mb-0">The University of Life</h3>
-                <div class="subheading mb-3">Bachelor of Science</div>
-                <div>Information technologies</div>
-                <p>GPA: 97 %</p>
-            </div>
-            <div class="resume-date text-md-right">
-                <span class="text-primary">Present</span>
-            </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div class="resume-content">
-                <h3 class="mb-0">School of Hard Knocks</h3>
-                <div class="subheading mb-3">Foreign language high school</div>
-                <p>GPA: 90 %</p>
-            </div>
-            <div class="resume-date text-md-right">
-                <span class="text-primary">Present</span>
-            </div>
-        </div>
-
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
-
         {{ range .Site.Data.education }}
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div class="resume-content">
                 <h3 class="mb-0"> {{ .school }} </h3>
-                <div class="subheading mb-3">Foreign language high school</div>
-                <p>GPA: 90 %</p>
+                <div class="subheading mb-3"> {{ .degree }} </div>
+                <div>{{ .major }}</div>
+                <p>GPA: {{ .gpa }}</p>
             </div>
             <div class="resume-date text-md-right">
                 <span class="text-primary"> {{ .range }} </span>
