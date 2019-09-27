@@ -19,13 +19,31 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div class="resume-content">
                 <h3 class="mb-0">School of Hard Knocks</h3>
-                <div class="subheading mb-3">foreign language high school</div>
+                <div class="subheading mb-3">Foreign language high school</div>
                 <p>GPA: 90 %</p>
             </div>
             <div class="resume-date text-md-right">
                 <span class="text-primary">Present</span>
             </div>
         </div>
+
+        "school":"Clinton Community College",
+        "degree":"Associate of Applied Science",
+        "major":"Computer Information Systems",
+        "range":"2004 - 2006"
+
+        {{ range .Site.Data.education }}
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+                <h3 class="mb-0"> {{ .school }} </h3>
+                <div class="subheading mb-3">Foreign language high school</div>
+                <p>GPA: 90 %</p>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary"> {{ .range }} </span>
+            </div>
+        </div>
+        {{ end }}
 
     </div>
 </section>
