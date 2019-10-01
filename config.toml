@@ -63,6 +63,11 @@ canonifyURLs = true
     link = "files/MartinGeorgiev-SolutionArchitect.vcf"
     icon = "fa fa-address-card"
 
+[[params.files]]
+    name = "Print version"
+    link = "/print/"
+    icon = "fas fa-print"
+
 	    # what certificates
 [[params.certificates]]
     name = "Microsoft Certified: Azure Solutions Architect Expert"
