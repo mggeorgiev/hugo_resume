@@ -54,6 +54,11 @@ canonifyURLs = true
 
 	    # what files
 [[params.files]]
+    name = "Print version"
+    link = "/print/"
+    icon = "fas fa-print"
+
+[[params.files]]
     name = "CV"
     link = "files/MartinGeorgiev-SolutionArchitect-CV.pdf"
     icon = "far fa-file-pdf"
@@ -62,11 +67,6 @@ canonifyURLs = true
     name = "Virtual Card"
     link = "files/MartinGeorgiev-SolutionArchitect.vcf"
     icon = "fa fa-address-card"
-
-[[params.files]]
-    name = "Print version"
-    link = "/print/"
-    icon = "fas fa-print"
 
 	    # what certificates
 [[params.certificates]]
