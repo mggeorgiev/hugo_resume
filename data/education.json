@@ -1,17 +1,17 @@
 [
     {
         "school":"UNIBIT",
-        "degree":"Bachelor of Science",
-        "major":"Information brokarage",
-        "range":"2015 - 2019",
-        "gpa": "97 %"
-    },
-    {
-        "school":"UNIBIT",
         "degree":"Master of Science",
         "major":"Software engineering",
         "range":"2019 - present",
         "gpa": "99 %"
+    },
+    {
+        "school":"UNIBIT",
+        "degree":"Bachelor of Science",
+        "major":"Information brokarage",
+        "range":"2015 - 2019",
+        "gpa": "97 %"
     },
     {
         "school":"School of Hard Knocks",

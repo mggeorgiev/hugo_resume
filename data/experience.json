@@ -1,0 +1,91 @@
+[
+    {
+        "role":"SYSTEMS DESIGN EXPERT",
+        "company":"FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A.",
+        "startDate": "MAY 2020",
+        "endDate": "present",
+        "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh):",
+        "responsibilities" : []
+    },
+    {
+        "role":"SOLUTION ARCHITECT",
+        "company":"RAIFFEISENBANK BULGARIA",
+        "startDate": "December 2019",
+        "endDate": "April 2020",
+        "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh):",
+        "responsibilities" : 
+        [
+            "Examination and interpretation of business requirements",
+            "Establishing solution intent",
+            "Aligning the solution with the technical architecture",
+            "Identification of potential technical design risks",
+            "Supervision of the built-in quality",
+            "Operation within the budgetary framework to validate the financial impact of design decisions",
+            "Identification of innovation opportunities",
+            "Planning technology roadmaps",
+            "Areas of expertise include Public and Private cloud."            
+        ]
+    },
+    {
+        "role":"SOLUTION LEADER/LEAD OFFERING SOLUTION ARCHITECT",
+        "company":"HP/HPE/DXC TECHNOLOGY",
+        "startDate": "June 2015",
+        "endDate": "November 2019",
+        "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:",
+        "responsibilities" : 
+        [
+            "Examination and interpretation of business requirements",
+            "Establishing solution intent",
+            "Aligning the solution with the technical architecture",
+            "Identification of potential technical design risks",
+            "Supervision of the built-in quality",
+            "Operation within the budgetary framework to validate the financial impact of design decisions",
+            "Identification of innovation opportunities",
+            "Planning technology roadmaps",
+            "Areas of expertise include Public and Private cloud."           
+        ]
+    },
+    {
+        "role":"Sales support specialist/Deal Delivery assurance",
+        "company":"Hewlett-Packard",
+        "startDate": "July 2011",
+        "endDate": "May 2015",
+        "description" : "Responsible for the end to end service management and process and tools solution during pre-sales. Verified that the proposed solution is fit for purpose and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal. I applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Tools used: HP SM (including all the ITIL modules), HP Operations Manager, Enterprise Service Portal, Reporting , Run Book Automation, HP Server Automation,      multiple case exchange technologies, and 50 other internal tools logically grouped in the HP Standard Reference Architecture.",
+        "responsibilities" : 
+        [
+            "Verify Service requirements",
+            "Negotiate SLA / OLA",
+            "Maintain and contribute to the creation of the service budget",
+            "Obtain stakeholders approval"    
+        ]
+    },
+    {
+        "role":"Change Manager",
+        "company":"Hewlett-Packard",
+        "startDate": "December 2007",
+        "endDate": "June 2011",
+        "description" : "Responsible for the end to end service management and process and tools solution during pre-sales. Verified that the proposed solution is fit for purpose and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal. I applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Tools used: HP SM (including all the ITIL modules), HP Operations Manager, Enterprise Service Portal, Reporting , Run Book Automation, HP Server Automation,      multiple case exchange technologies, and 50 other internal tools logically grouped in the HP Standard Reference Architecture.",
+        "responsibilities" : 
+        [
+            "to drive faster change adoption;",
+            "to drive higher ultimate utilization and greater proficiency of the changes that impact employees;",
+            "to increase benefit realization, value creation, ROI and the achievement of results and outcomes." 
+        ]
+    },
+    {
+        "role": "Reporting Specialist",
+        "company": "Sofica Group LTD",
+        "startDate": "May 2007",
+        "endDate": "November 2007",
+        "description" : "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices.",
+        "responsibilities" : []
+    },
+    {
+        "role": "Supervisor",
+        "company": "Sofica Group LTD",
+        "startDate": "July 2005",
+        "endDate": "May 2007",
+        "description" : "As a supervisor, I managed a team of call centre agents. I provided assistance by answering agent’s questions, and taking calls that they could not handle. I motivated them through positive communication and feedback.",
+        "responsibilities" : []
+    }
+]
