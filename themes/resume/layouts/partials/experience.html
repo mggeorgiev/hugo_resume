@@ -17,6 +17,16 @@
                             <li> {{ . }} </li>
                         {{ end }}
                     </ul>
+                    {{if gt (len .technologies) 0}} 
+                        <p>
+                            Technologies used:
+                        </p>
+                        <ul>
+                            {{ range .technologies}}
+                            <li> {{ . }} </li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">{{ .startDate }} - {{ .endDate }}</span>
