@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "{{ .Site.Title }}",
+     "home_page_url": "{{ .Permalink }}",
+     "feed_url": "{{ .Permalink }}feed.json",
+     "favicon": "{{ .Permalink }}favicon.png",
+     "author": {
+       "name": "{{ .Site.Params.author }}",
+       "role": "{{ .Site.Params.contactNote }}",
+       "image": "{{ .Permalink }}{{ .Site.Params.profileImage }}",
+       "logo": "{{ .Permalink }}{{ .Site.Params.favicon }}"
+     }
+}

@@ -1,0 +1,6 @@
+{
+    "title": "{{ .Site.Title }}",
+     "home_page_url": "{{ .Permalink }}",
+     "status": "OK",
+     "message": "The site is working."
+}

@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="On this site you can find information about Martin Georgiev's IT projects, approach to solving business problens, architectures.">
     <meta name="author" content="{{ .Site.Params.author}}">
-    <meta name="generator" content="Hugo 0.58.2" />
+    <meta name="generator" content="Hugo 0.80" />
     <meta property="og:title" content="{{ .Site.Title }}" />
-    <meta property="og:image" content="{{ .Params.profileImage | relURL }}" />
+    <meta property="og:image" content="/{{ .Site.Params.profileImage | relURL }}" />
     <meta name="description" content="{{ .Site.Params.description }}">
     <meta property="og:description" content=" {{ .Site.Params.description }}" />
 
     <title>{{ .Site.Title }}</title>
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="/{{ .Site.Params.favicon }}">
 
     <!-- Bootstrap core CSS -->
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
