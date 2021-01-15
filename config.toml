@@ -12,10 +12,10 @@ canonifyURLs = true
 	country = "Bulgaria"
     phone = "(359) 89-84-666-89"
     contactNote = "Solutions Architect"
-    profileImage = "/img/profile.png"
+    profileImage = "img/profile.png"
     email = "martin@martingeorgiev.com"
     description = "Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud."
-    favicon = "/img/favicon.png"
+    favicon = "img/favicon.png"
     # what sections
     showHandles = true
     showCompetence = false
@@ -36,8 +36,18 @@ canonifyURLs = true
     isPlainText = true
     mediaType = "application/json"
 
+  [outputFormats.healthcheck]
+    baseName = "healthcheck"
+    isPlainText = true
+    mediaType = "application/json"
+
+  [outputFormats.jsonfeed]
+    baseName = "feed"
+    isPlainText = true
+    mediaType = "application/json"
+
 [outputs]
-  home = ["HTML", "AMP", "JSON"]
+  home = ["HTML", "AMP", "jsonfeed", "healthcheck","json"]
   page = ["HTML", "AMP"]
 
     # what social
