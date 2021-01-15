@@ -30,6 +30,16 @@ canonifyURLs = true
 	showBG = false
     showQr = true
 
+[outputFormats]
+  [outputFormats.JSON]
+    baseName = "api"
+    isPlainText = true
+    mediaType = "application/json"
+
+[outputs]
+  home = ["HTML", "AMP", "JSON"]
+  page = ["HTML", "AMP"]
+
     # what social
 [[params.handles]]
     name = "Message"
