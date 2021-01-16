@@ -14,7 +14,7 @@ canonifyURLs = true
     contactNote = "Solutions Architect"
     profileImage = "img/profile.png"
     email = "martin@martingeorgiev.com"
-    description = "Solution architect experienced designing and deployig infrastructure to manage large scale distributed platforms both on prem and in public cloud."
+    description = "Solution Architect experienced in the translation of business requirements into End-to-End IT solutions, in line with the technical architecture. Accountable for the solution in operation, responsible for the solution descriptions, service, and user experience design."
     favicon = "img/favicon.png"
     # what sections
     showHandles = true
@@ -29,6 +29,7 @@ canonifyURLs = true
     showSearch = true
 	showBG = false
     showQr = true
+    showPrivacy = true
 
 [outputFormats]
   [outputFormats.JSON]
