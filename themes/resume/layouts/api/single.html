@@ -1,0 +1,12 @@
+<head>
+    {{- partial "google.html" . -}}
+
+    <meta name="author" content="{{ .Site.Params.author}}">
+    <meta name="generator" content="Hugo {{ .Site.Hugo.Version }}" />
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta http-equiv="refresh" content="0; URL='{{ .Page.Params.redirect }}'" />
+
+    <title>{{ .Site.Title }}</title>
+
+    <meta name="generator" content="Hugo {{ .Site.Hugo.Version }}" />
+</head>
