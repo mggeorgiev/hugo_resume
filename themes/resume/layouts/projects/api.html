@@ -50,7 +50,9 @@
                         <ul>
                             {{ range .Params.api }}
                             <li class="lead">
-                                {{ . }}
+                                <a href="../..{{ .url }}/">{{ .url }} </a>
+                                <br>
+                                {{ .description }}
                             </li>
                             {{ end }}
                         </ul>
