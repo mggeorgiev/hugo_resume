@@ -4,6 +4,16 @@
     "home_page_url": "{{ .Permalink }}",
     "feed_url": "{{ .Permalink }}feed.json",
     "favicon": "{{ .Permalink }}favicon.png",
+    "experience": {
+      "page_url": "{{ .Permalink }}index.html#experience",
+      "roles": [{{ range $index, $e := .Site.Data.experience }}{{ if $index }}, {{ end }}
+        {
+          "company": "{{ .company }}",
+          "position":"{{ .role }}",
+          "startDate":"{{ .startDate }}",
+          "endDate":"{{ .endDate }}"
+        }{{ end }}
+    },    
     "education": {
       "page_url": "{{ .Permalink }}index.html#education",
       "schools": [{{ range $index, $e := .Site.Data.education }}{{ if $index }}, {{ end }}

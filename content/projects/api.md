@@ -19,7 +19,7 @@ api:
       schema: ""
     - name: api
       url: "/api"
-      description: "Exports education and certificatiion in a json format"
+      description: "Exports experience, education and certificatiion in a json format."
       schema: ""
 layout : "api"
 ---
