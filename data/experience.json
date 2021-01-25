@@ -5,14 +5,22 @@
         "startDate": "MAY 2020",
         "endDate": "present",
         "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh):",
-        "responsibilities" : [],
+        "responsibilities" : 
+        [
+            "Support the migration of on-premise solutions to the cloud by evaluating the approach (Regosting, Replatforming, Rearchitecting)",
+            "Establishing solution intent",
+            "Design and deploy proprietary PAAS solutions based on IaC",
+            "Help the teams in developing Azure Cloud skills"         
+        ],
         "technologies": 
         [
             "Azure CLI",
             "Terraform",
             "ARM templates",
             "AKS",
-            "IAAS"
+            "Azure DevOps",
+            "Azure IAAS",
+            "Azure PAAS"
         ]
     },
     {
@@ -26,17 +34,15 @@
             "Examination and interpretation of business requirements",
             "Establishing solution intent",
             "Aligning the solution with the technical architecture",
-            "Identification of potential technical design risks",
+            "Analyze the impact of the solution (integration, operations, costs, releases) and identification of the potential risks",
+            "Maintenance of the Cloud Services Usage matrix (which cloud for which purpose)",
             "Supervision of the built-in quality",
             "Operation within the budgetary framework to validate the financial impact of design decisions",
             "Identification of innovation opportunities",
             "Planning technology roadmaps",
             "Areas of expertise include Public and Private cloud."            
         ],
-        "technologies": 
-        [
-
-        ]
+        "technologies": []
     },
     {
         "role":"SOLUTION LEADER/LEAD OFFERING SOLUTION ARCHITECT",
