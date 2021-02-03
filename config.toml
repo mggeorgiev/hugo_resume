@@ -76,7 +76,7 @@ canonifyURLs = true
 	    # what files
 [[params.files]]
     name = "Print version"
-    link = "https://martingeorgiev.info"
+    link = "https://www.martingeorgiev.info/"
     icon = "fas fa-print"
 
 [[params.files]]
