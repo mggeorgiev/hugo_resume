@@ -8,11 +8,7 @@ api:
     - name: healthcheck
       url: "/healthcheck"
       description: "Healthcheck mechanism"
-      schema:
-            - title
-            - home_page_url
-            - status
-            - message
+      schema: "{title: \"test\",\r\n home_page_url: \"home_page_url\",\r\n status: status,\r\n message: message}"
     - name: jsonfeed
       description: "JSON feed"
       url: "/jsonfeed"

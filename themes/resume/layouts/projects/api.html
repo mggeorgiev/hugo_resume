@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>About the project</h2>
+                    <h2>Hot to use the rest APIs</h2>
                     {{ range .Params.about }}
                     <p class="lead">
                         {{ . }}
@@ -53,6 +53,8 @@
                                 <a href="../..{{ .url }}/">{{ .url }} </a>
                                 <br>
                                 {{ .description }}
+                                <br>
+                                {{ .schema }}
                             </li>
                             {{ end }}
                         </ul>
