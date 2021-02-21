@@ -31,6 +31,9 @@ canonifyURLs = true
     showQr = true
     showPrivacy = true
 
+[params.google.analytics]
+    trackerID = "UA-110491290-1"
+
 [outputFormats]
   [outputFormats.JSON]
     baseName = "api"
@@ -174,6 +177,3 @@ canonifyURLs = true
     link = "https://s3.amazonaws.com/verify.edx.org/downloads/9401b4788ef44624ad10b6310ca5420c/Certificate.pdf"
     icon = "fa-li fa fa-trophy text-warning"
 	date = "Certification Date: May 2015 – Present"
-
-[params.google.analytics]
-    trackerID = "UA-110491290-1"
