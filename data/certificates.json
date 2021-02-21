@@ -6,16 +6,28 @@
         "date": "Certification Date: Jun 2019 - Expires on 20 June 2021"
     },
     {
-        "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
-        "link": "https://www.youracclaim.com/badges/159dc221-6dbe-427a-951e-4837b37a6c2f/public_url",
-        "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: Jan 2021 - Expires on 13 January 2023"
-    },
-    {
         "name": "Microsoft Certified: Exam 535: Architecting Microsoft Azure Solutions",
         "link": "https://www.youracclaim.com/badges/3a1fb59a-d5ce-41be-b336-2c8bd3a5f5c9/linked_in_profile",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: Jun 2018 - No Expiration date"
+    },
+    {
+        "name": "Microsoft Certified: DevOps Engineer Expert",
+        "link": "https://www.youracclaim.com/badges/ae07679d-882b-4f3a-8411-1da37f485890/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: February 2021 - February 2023"
+    },
+    {
+        "name": "Microsoft Certified: AZ-400 Designing and Implementing Microsoft DevOps Solutions",
+        "link": "https://www.youracclaim.com/badges/ae07679d-882b-4f3a-8411-1da37f485890/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: February 2021 - No Expiration date"
+    },
+    {
+        "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+        "link": "https://www.youracclaim.com/badges/159dc221-6dbe-427a-951e-4837b37a6c2f/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: Jan 2021 - Expires on 13 January 2023"
     },
     {
         "name": "ITIL Intermediate Service Transition",
