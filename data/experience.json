@@ -7,10 +7,11 @@
         "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh):",
         "responsibilities" : 
         [
-            "Support the migration of on-premise solutions to the cloud by evaluating the approach (Regosting, Replatforming, Rearchitecting)",
-            "Establishing solution intent",
+            "Support the migration of on-premises solutions to the cloud by assessing the current architecture, functional/non-functional requirements, data sources and interfaces and evaluating the approach (Rehosting, Replatforming, Rearchitecting)",
+            "Define, plan and deliver modern solutions and cloud-based enterprise architectures",
+            "Realize or lead proof of concepts",
             "Design and deploy proprietary PAAS solutions based on IaC",
-            "Help the teams in developing Azure Cloud skills"         
+            "Help the teams in developing Azure Cloud skills and capabilities."         
         ],
         "technologies": 
         [
