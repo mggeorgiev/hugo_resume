@@ -18,6 +18,12 @@
         "date": "Certification Date: February 2021 - February 2023"
     },
     {
+        "name": "Microsoft Certified: Azure Database Administrator Associate",
+        "link": "https://www.youracclaim.com/badges/dcb74678-3ca5-4baf-954a-8acb86f18970/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: March 2021 - March 2023"
+    },
+    {
         "name": "Microsoft Certified: AZ-400 Designing and Implementing Microsoft DevOps Solutions",
         "link": "https://www.youracclaim.com/badges/ae07679d-882b-4f3a-8411-1da37f485890/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
