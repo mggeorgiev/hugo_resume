@@ -30,6 +30,12 @@
         "date": "Certification Date: February 2021 - No Expiration date"
     },
     {
+        "name": "Microsoft Certified: Azure Developer Associate (AZ-204)",
+        "link": "https://www.youracclaim.com/badges/159dc221-6dbe-427a-951e-4837b37a6c2f/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: March 2021 - Expires on 26 March 2023"
+    },
+    {
         "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
         "link": "https://www.youracclaim.com/badges/159dc221-6dbe-427a-951e-4837b37a6c2f/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
