@@ -1,13 +1,13 @@
 [
     {
         "name": "Microsoft Certified: Azure Solutions Architect Expert",
-        "link": "https://www.youracclaim.com/badges/4f8574c0-9fb0-4181-8d85-e9a599685789/linked_in_profile",
+        "link": "https://www.credly.com/badges/4bba4668-05eb-4579-8043-d7123cd9c722/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: Jun 2019 - December 2021"
+        "date": "Certification Date: Jun 2019 - December 2022"
     },
     {
         "name": "Microsoft Certified: Exam 535: Architecting Microsoft Azure Solutions",
-        "link": "https://www.youracclaim.com/badges/3a1fb59a-d5ce-41be-b336-2c8bd3a5f5c9/linked_in_profile",
+        "link": "https://www.credly.com/badges/b5111790-cacd-4b5e-a00e-ff898ba95380/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: Jun 2018 - No Expiration date"
     },
@@ -28,6 +28,12 @@
         "link": "https://www.youracclaim.com/badges/ae07679d-882b-4f3a-8411-1da37f485890/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: February 2021 - No Expiration date"
+    },
+    {
+        "name": "Microsoft Certified: Azure Developer Associate (AZ-500)",
+        "link": "https://www.credly.com/badges/6e066c5a-cfc8-4143-8708-6a10aad6ffee/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: July 2021 - Expires on 13 July 2022"
     },
     {
         "name": "Microsoft Certified: Azure Developer Associate (AZ-204)",
