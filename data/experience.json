@@ -13,6 +13,11 @@
             "Design and deploy proprietary PAAS solutions based on IaC",
             "Help the teams in developing Azure Cloud skills and capabilities."         
         ],
+        "achievements": [
+            "Created an analytical and reporting solution based on Power BI, Power Querry, Azure DevOps.",
+            "Created and mantained 2 basis repositories used for IaC deployments that increased the standartisation of the delivery to ~65%",
+            "Created 4 types of pipelines that were used in 15 landing zones"
+        ],
         "technologies": 
         [
             "Azure CLI",
@@ -43,6 +48,7 @@
             "Planning technology roadmaps",
             "Areas of expertise include Public and Private cloud."            
         ],
+        "achievements": ["Completed projects concerning regulatory and compliance and anti-froud."],
         "technologies": []
     },
     {
@@ -63,7 +69,8 @@
             "Planning technology roadmaps",
             "Areas of expertise include Public and Private cloud."           
         ],
-        "technologies": []
+        "achievements": ["Worked on ~ 40 opportunities", "Created 7 custom costing and risk assesment solutions that were reused in a team of 10 solution architects"],
+        "technologies": ["Private and Public clouds, in house automation"]
     },
     {
         "role":"Sales support specialist/Deal Delivery assurance",
@@ -77,6 +84,11 @@
             "Negotiate SLA / OLA",
             "Maintain and contribute to the creation of the service budget",
             "Obtain stakeholders approval"    
+        ],
+        "achievements": [
+            "Worked on ~ 130 opportunities - and never had a customer rejection of the service line.",
+            "Integrated presales tools",
+            "Generatated reporting and analysis that was instrumental for higher management decision making."
         ],
         "technologies": 
         [
@@ -102,6 +114,12 @@
             "to drive higher ultimate utilization and greater proficiency of the changes that impact employees;",
             "to increase benefit realization, value creation, ROI and the achievement of results and outcomes." 
         ],
+        "achievements": [
+            "Automated the reporting that reduced the time to generate from 4 hours to under 5 minutes - on a daily basis.",
+            "Automated the Technical Advisory Board (TAB) and Change Advisory Board agenda verification and generation. On top of the time saved this increased the quality and reduced the errors from ~ 10 per week to 1 per month.",
+            "Designed, implemented and supported a combined Operational and Decision support system that shared the same set of data. This facilitated the tracking and improvement of 5 to 25 KPIs and provided historical data analysis.",
+            "Facilitated the integration of various Service management tools."
+        ],
         "technologies":
         [
             "HP Service Manager",
@@ -116,11 +134,16 @@
         "endDate": "November 2007",
         "description" : "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices.",
         "responsibilities" : [],
+        "achievements": [
+            "Automated the generation of arround 70 reports that reduced the time to produce them from three weeks to 4 hours and increased the quality and reliability.",
+            "This allowed the time previously used for data gathering and agregation to be devoted to analysis, which increased the quality oif the service and the customer satisfaction."
+        ],
         "technologies":
         [
             "HP Service Manager",
+            "ESAR",
             "ESL",
-            "Visual Basic for Application"
+            "Visual Basic for Application (VBA)"
         ]
     },
     {
@@ -130,6 +153,7 @@
         "endDate": "May 2007",
         "description" : "I managed and a team of call centre agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle.",
         "responsibilities" : [],
-        "technologies": []
+        "achievements": ["Designed the algorythm that presented the scripts. This reduced the effort required by the agents 10x times."],
+        "technologies": ["Visual Basic for Application (VBA)", "SQL"]
     }
 ]

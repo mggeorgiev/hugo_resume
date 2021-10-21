@@ -17,6 +17,16 @@
                             <li> {{ . }} </li>
                         {{ end }}
                     </ul>
+                    {{if gt (len .achievements) 0}} 
+                        <p>
+                            Major achievements:
+                        </p>
+                        <ul>
+                            {{ range .achievements}}
+                            <li> {{ . }} </li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
                     {{if gt (len .technologies) 0}} 
                         <p>
                             Technologies used:
