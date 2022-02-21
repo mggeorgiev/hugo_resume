@@ -14,8 +14,8 @@
             "Help the teams in developing Azure Cloud skills and capabilities."         
         ],
         "achievements": [
-            "Created an analytical and reporting solution based on Power BI, Power Querry, Azure DevOps.",
-            "Created and mantained 2 basis repositories used for IaC deployments that increased the standartisation of the delivery to ~65%",
+            "Created an analytical and reporting solution based on Power BI, Power Query, Azure DevOps.",
+            "Created and maintained 2 basis repositories used for IaC deployments that increased the standartisation of the delivery to ~65%",
             "Created 4 types of pipelines that were used in 15 landing zones"
         ],
         "technologies": 
@@ -48,7 +48,7 @@
             "Planning technology roadmaps",
             "Areas of expertise include Public and Private cloud."            
         ],
-        "achievements": ["Completed projects concerning regulatory and compliance and anti-froud."],
+        "achievements": ["Completed projects concerning regulatory and compliance and anti-fraud."],
         "technologies": []
     },
     {
@@ -69,7 +69,7 @@
             "Planning technology roadmaps",
             "Areas of expertise include Public and Private cloud."           
         ],
-        "achievements": ["Worked on ~ 40 opportunities", "Created 7 custom costing and risk assesment solutions that were reused in a team of 10 solution architects"],
+        "achievements": ["Worked on ~ 40 opportunities", "Created 7 custom costing and risk assessment solutions that were reused in a team of 10 solution architects"],
         "technologies": ["Private and Public clouds, in house automation"]
     },
     {
@@ -88,7 +88,7 @@
         "achievements": [
             "Worked on ~ 130 opportunities - and never had a customer rejection of the service line.",
             "Integrated presales tools",
-            "Generatated reporting and analysis that was instrumental for higher management decision making."
+            "Generated reporting and analysis that was instrumental for higher management decision making."
         ],
         "technologies": 
         [
@@ -135,8 +135,8 @@
         "description" : "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices.",
         "responsibilities" : [],
         "achievements": [
-            "Automated the generation of arround 70 reports that reduced the time to produce them from three weeks to 4 hours and increased the quality and reliability.",
-            "This allowed the time previously used for data gathering and agregation to be devoted to analysis, which increased the quality oif the service and the customer satisfaction."
+            "Automated the generation of around 70 reports that reduced the time to produce them from three weeks to 4 hours and increased the quality and reliability.",
+            "This allowed the time previously used for data gathering and aggregation to be devoted to analysis, which increased the quality of the service and the customer satisfaction."
         ],
         "technologies":
         [
@@ -153,7 +153,7 @@
         "endDate": "May 2007",
         "description" : "I managed and a team of call centre agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle.",
         "responsibilities" : [],
-        "achievements": ["Designed the algorythm that presented the scripts. This reduced the effort required by the agents 10x times."],
+        "achievements": ["Designed the algorithm that presented the scripts. This reduced the effort required by the agents 10x times."],
         "technologies": ["Visual Basic for Application (VBA)", "SQL"]
     }
 ]
