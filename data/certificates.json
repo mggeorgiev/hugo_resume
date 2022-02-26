@@ -30,6 +30,12 @@
         "date": "Certification Date: February 2021 - No Expiration date"
     },
     {
+        "name": "Microsoft Certified: Azure Network Engineer Associate (AZ-700)",
+        "link": "https://www.credly.com/badges/68ed457f-c656-4785-a7d8-23f2818cabca/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: February 2022 - Expires on 26 February 2023"
+    },    
+    {
         "name": "Microsoft Certified: Azure Security Engineer Associate (AZ-500)",
         "link": "https://www.credly.com/badges/6e066c5a-cfc8-4143-8708-6a10aad6ffee/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
