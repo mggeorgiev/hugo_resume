@@ -34,7 +34,7 @@
         "link": "https://www.credly.com/badges/68ed457f-c656-4785-a7d8-23f2818cabca/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: February 2022 - Expires on 26 February 2023"
-    },    
+    },
     {
         "name": "Microsoft Certified: Azure Security Engineer Associate (AZ-500)",
         "link": "https://www.credly.com/badges/6e066c5a-cfc8-4143-8708-6a10aad6ffee/public_url",
@@ -53,6 +53,12 @@
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: Jan 2021 - Expires on 13 January 2023"
     },
+    {
+        "name": "HashiCorp Certified: Terraform Associate",
+        "link": "https://www.credly.com/badges/03b4951d-0f62-49fa-91d5-165fd27d3748/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: March 2022 - Expires on 28 March 2023"
+    }, 
     {
         "name": "ITIL Intermediate Service Transition",
         "link": "files/ITIL_SERVICE_TRANSITION.pdf",
