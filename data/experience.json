@@ -77,7 +77,7 @@
         "company":"Hewlett-Packard",
         "startDate": "July 2011",
         "endDate": "May 2015",
-        "description" : "Responsible for the end to end service management and process and tools solution during pre-sales. Verified that the proposed solution is fit for purpose and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal. I applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Main task:",
+        "description" : "Responsible for the end-to-end service management and process and tools solution during pre-sales. Verified that the proposed solution is fit for purpose and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal. I applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Main task:",
         "responsibilities" : 
         [
             "Verify Service requirements",
@@ -151,7 +151,7 @@
         "company": "Sofica Group LTD",
         "startDate": "July 2005",
         "endDate": "May 2007",
-        "description" : "I managed and a team of call centre agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle.",
+        "description" : "I managed and a team of call center agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle.",
         "responsibilities" : [],
         "achievements": ["Designed the algorithm that presented the scripts. This reduced the effort required by the agents 10x times."],
         "technologies": ["Visual Basic for Application (VBA)", "SQL"]
