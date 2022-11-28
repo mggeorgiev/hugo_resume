@@ -1,9 +1,15 @@
 [
     {
         "name": "Microsoft Certified: Azure Solutions Architect Expert",
-        "link": "https://www.credly.com/badges/4bba4668-05eb-4579-8043-d7123cd9c722/public_url",
+        "link": "https://www.credly.com/badges/c1c81249-53c1-491e-af54-567d4540a468/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: Jun 2019 - December 2023"
+    },
+    {
+        "name": "Microsoft Certified: Azure Solutions Architect Expert (Legacy)",
+        "link": "https://www.credly.com/badges/4bba4668-05eb-4579-8043-d7123cd9c722/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: Jun 2019 - December 2022"
     },
     {
         "name": "Microsoft Certified: Exam 535: Architecting Microsoft Azure Solutions",
