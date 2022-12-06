@@ -2,9 +2,9 @@
     {
         "role":"SYSTEMS DESIGN EXPERT",
         "company":"FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A.",
-        "startDate": "MAY 2020",
+        "startDate": "May 2020",
         "endDate": "present",
-        "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh):",
+        "description" : "My responsibilities include solution development (service start-up, technology, and process transformation, ongoing refresh):",
         "responsibilities" : 
         [
             "Support the migration of on-premises solutions to the cloud by assessing the current architecture, functional/non-functional requirements, data sources and interfaces and evaluating the approach (Rehosting, Replatforming, Rearchitecting)",
@@ -15,7 +15,7 @@
         ],
         "achievements": [
             "Created an analytical and reporting solution based on Power BI, Power Query, Azure DevOps.",
-            "Created and maintained 2 basis repositories used for IaC deployments that increased the standartisation of the delivery to ~65%",
+            "Created and maintained 2 basis repositories used for IaC deployments that increased the standardization of the delivery to ~65%",
             "Created 4 types of pipelines that were used in 15 landing zones"
         ],
         "technologies": 
@@ -48,7 +48,7 @@
             "Planning technology roadmaps",
             "Areas of expertise include Public and Private cloud."            
         ],
-        "achievements": ["Completed projects concerning regulatory and compliance and anti-fraud."],
+        "achievements": ["Completed projects concerning regulatory compliance and anti-fraud."],
         "technologies": []
     },
     {
@@ -56,7 +56,7 @@
         "company":"HP/HPE/DXC TECHNOLOGY",
         "startDate": "June 2015",
         "endDate": "November 2019",
-        "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:",
+        "description" : "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, and value proposition. On top of the previous responsibilities, my tasks included:",
         "responsibilities" : 
         [
             "Examination and interpretation of business requirements",
@@ -70,14 +70,14 @@
             "Areas of expertise include Public and Private cloud."           
         ],
         "achievements": ["Worked on ~ 40 opportunities", "Created 7 custom costing and risk assessment solutions that were reused in a team of 10 solution architects"],
-        "technologies": ["Private and Public clouds, in house automation"]
+        "technologies": ["Private and Public clouds, in-house automation"]
     },
     {
         "role":"Sales support specialist/Deal Delivery assurance",
         "company":"Hewlett-Packard",
         "startDate": "July 2011",
         "endDate": "May 2015",
-        "description" : "Responsible for the end-to-end service management and process and tools solution during pre-sales. Verified that the proposed solution is fit for purpose and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal. I applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Main task:",
+        "description" : "Responsible for the end-to-end service management and process and tools solution during pre-sales. Verified that the proposed solution is fit for purpose and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators, and technical proposals. I applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Main task:",
         "responsibilities" : 
         [
             "Verify Service requirements",
@@ -88,7 +88,7 @@
         "achievements": [
             "Worked on ~ 130 opportunities - and never had a customer rejection of the service line.",
             "Integrated presales tools",
-            "Generated reporting and analysis that was instrumental for higher management decision making."
+            "Generated reporting and analysis that was instrumental for higher management decision-making."
         ],
         "technologies": 
         [

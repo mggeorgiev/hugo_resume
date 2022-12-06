@@ -14,7 +14,7 @@ canonifyURLs = true
     contactNote = "Solutions Architect"
     profileImage = "img/profile.png"
     email = "martin@martingeorgiev.com"
-    description = "System designer, former solution architect, former developer. I reduce IT costs by application modernizations and migrations to Azure."
+    description = "System designer, former solution architect, former developer. I reduce IT costs through application modernizations and migrations to Azure."
     favicon = "img/favicon.png"
     # what sections
     showHandles = true
