@@ -26,13 +26,13 @@ jobs:
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo
 
-      - uses: azure/docker-login@v1
+      - name: Azure Container registry login
+        uses: azure/docker-login@v1
         with:
             login-server: martingeorgiev.azurecr.io
             username: ${{ secrets.ACR_USERNAME }}
             password: ${{ secrets.ACR_PASSWORD }}
 
-      - uses: actions/checkout@v2
       - name: Build the Docker image
         run: |
           docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievcom:latest
