@@ -26,6 +26,18 @@ jobs:
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo
 
+      # - name: Generate build number
+      #   id: buildnumber
+      #   uses: einaregilsson/build-number@v3 
+      #   with:
+      #     token: ${{secrets.github_token}}        
+      
+      # # Now you can pass ${{ steps.buildnumber.outputs.build_number }} to the next steps.
+      # - name: Another step as an example
+      #   uses: actions/hello-world-docker-action@v1
+      #   with:
+      #     who-to-greet: ${{ steps.buildnumber.outputs.build_number }}
+
       - name: Azure Container registry login
         uses: azure/docker-login@v1
         with:
@@ -37,11 +49,13 @@ jobs:
         run: |
           docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievcom:latest
           docker push martingeorgiev.azurecr.io/martingeorgievcom:latest
-
-  #     - uses: actions/checkout@v2
-  #     - uses: azure/login@v1
-  #       with:
-  #           creds: ${{ secrets.AZURE_CREDENTIALS }}
+          docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievcom:${{ github.run_number }}
+          docker push martingeorgiev.azurecr.io/martingeorgievcom:${{ github.run_number }}
+      
+      # - name: Azure login
+      #   uses: azure/login@v1
+      #   with:
+      #       creds: ${{ secrets.AZURE_CREDENTIALS }}
 
   #     - name: Delete old files from blob storage
   #       uses: azure/CLI@v1
