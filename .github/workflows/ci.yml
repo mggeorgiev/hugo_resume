@@ -6,7 +6,7 @@
 name: CI
 on: [push]
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
@@ -26,14 +26,44 @@ jobs:
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo
 
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     personal_token: ${{ secrets.TOKEN }}
-      #     external_repository: <username>/<username>.github.io
-      #     publish_dir: ./public
-      #     #   keep_files: true
-      #     user_name: <username>
-      #     user_email: <username@email.com>
-      #     publish_branch: master
-      #   #   cname: example.com
+      - uses: azure/docker-login@v1
+        with:
+            login-server: martingeorgiev.azurecr.io
+            username: ${{ secrets.ACR_USERNAME }}
+            password: ${{ secrets.ACR_PASSWORD }}
+
+      - uses: actions/checkout@v2
+      - name: Build the Docker image
+        run: |
+          docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievcom:latest
+          docker push martingeorgiev.azurecr.io/martingeorgievcom:latest
+
+  #     - uses: actions/checkout@v2
+  #     - uses: azure/login@v1
+  #       with:
+  #           creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+  #     - name: Delete old files from blob storage
+  #       uses: azure/CLI@v1
+  #       with:
+  # #        azcliversion: 2.30.0
+  #         inlineScript: |
+  #             az storage blob delete-batch --source '$web' --account-name martingeorgievcom
+              
+  #     - name: Upload to blob storage
+  #       uses: azure/CLI@v1
+  #       with:
+  # #        azcliversion: 2.30.0
+  #         inlineScript: |
+  #             az storage blob upload-batch --account-name martingeorgievcom -d '$web' -s .
+  #     - name: Purge CDN endpoint
+  #       uses: azure/CLI@v1
+  #       with:
+  # #        azcliversion: 2.30.0
+  #         inlineScript: |
+  #           az cdn endpoint purge --content-paths  "/*" --profile-name martingeorgievcom --name martingeorgievcom --resource-group martingeorgievcom
+  #   # Azure logout 
+  #     - name: logout
+  #       run: |
+  #             az logout
+  #       if: always()
