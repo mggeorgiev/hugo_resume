@@ -8,13 +8,13 @@ canonifyURLs = true
     author = "Martin Georgiev"
     firstName = "Martin"
     lastName = "Georgiev"
-	city = "Sofia"
+	city = "Luxembourg"
 	country = "Bulgaria"
     phone = "(359) 89-84-666-89"
-    contactNote = "Solutions Architect"
+    contactNote = "System Designer"
     profileImage = "img/profile.png"
     email = "martin@martingeorgiev.com"
-    description = "System designer, former solution architect, former developer. I reduce IT costs through application modernizations and migrations to Azure."
+    description = "System designer, former solution architect, former developer. I specialize in decreasing risks associated with migrations to Azure public cloud and lowering IT expenses through application modernization to reliable and secure cloud architectures."
     favicon = "img/favicon.png"
     # what sections
     showHandles = true
