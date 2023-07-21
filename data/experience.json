@@ -1,5 +1,35 @@
 [
     {
+        "role":"SENIOR MANAGER - IT",
+        "company":"DELOITTE GLOBAL SERVICES Sàrl",
+        "startDate": "April 2023",
+        "endDate": "present",
+        "description" : "My responsibilities include support the cloud adoption and operations by:",
+        "responsibilities" : 
+        [
+            "#Cloud-Native Application Solutions: architecting, designed, and delivered cloud-native applications, ensuring that these applications leverage the platform scalability, high availability, and efficient resource utilization",
+            "#SAAS: Designing innovative and secure proprietary solutions that cater to multiple tenants or customers, providing flexibility and cost-effectiveness to end-users while maintaining isolation and data security for each tenant",
+            "#Automation and Infrastructure as Code (IaC): enabling consistent, repeatable, and error-free deployments, reducing manual effort and ensuring better reliability of the infrastructure",
+            "Skill Development and Capability Building: By providing training, guidance, and hands-on support, I have empowered teams to efficiently utilize Azure services and best practices"
+        ],
+        "achievements": [
+            "Integrated Infrastructure with IaC: Successfully integrated the infrastructure of three applications using Infrastructure as Code. This consolidation has led to better resource management, cost optimization, and improved overall operational efficiency.",
+            "Module Creation and Maintenance: Designed and maintained reusable modules that are instrumental in deploying Infrastructure as Code. These modules ensure consistency across different deployments, streamline the development process, and enable rapid scaling of applications.",
+            "Pipeline Development for Landing Zones: created pipelines tailored to different needs, and utilized them across the company landing zones. These pipelines automate the process of building, testing, and deploying applications in their respective landing zones, improving the development lifecycle and reducing time-to-market.",
+            "Develop the HashiCorp Terraform adoption framework."
+        ],
+        "technologies": 
+        [
+            "Terraform",
+            "Azure DevOps",
+            "Azure Entra ID",
+            "Azure CLI",
+            "ARM templates",
+            "Azure IAAS",
+            "Azure PAAS"
+        ]
+    },
+    {
         "role":"SYSTEMS DESIGN EXPERT",
         "company":"FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A.",
         "startDate": "May 2020",
