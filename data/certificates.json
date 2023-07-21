@@ -1,34 +1,76 @@
 [
     {
         "name": "Microsoft Certified: Azure Solutions Architect Expert",
-        "link": "https://www.youracclaim.com/badges/4f8574c0-9fb0-4181-8d85-e9a599685789/linked_in_profile",
+        "link": "https://www.credly.com/badges/c1c81249-53c1-491e-af54-567d4540a468/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: Jun 2019 - December 2021"
+        "date": "Certification Date: Jun 2019 - December 2023"
+    },
+    {
+        "name": "Microsoft Certified: Azure Solutions Architect Expert (Legacy)",
+        "link": "https://www.credly.com/badges/4bba4668-05eb-4579-8043-d7123cd9c722/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: Jun 2019 - December 2022"
     },
     {
         "name": "Microsoft Certified: Exam 535: Architecting Microsoft Azure Solutions",
-        "link": "https://www.youracclaim.com/badges/3a1fb59a-d5ce-41be-b336-2c8bd3a5f5c9/linked_in_profile",
+        "link": "https://www.credly.com/badges/b5111790-cacd-4b5e-a00e-ff898ba95380/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: Jun 2018 - No Expiration date"
     },
     {
         "name": "Microsoft Certified: DevOps Engineer Expert",
-        "link": "https://www.youracclaim.com/badges/2e9abab6-fc46-429c-ab2a-c3fba2965b3f/public_url",
+        "link": "https://www.credly.com/badges/81752e77-0fe8-4ae2-8b43-989959b158ef/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: February 2021 - February 2023"
     },
     {
+        "name": "Microsoft Certified: Cybersecurity Architect Expert",
+        "link": "https://www.credly.com/badges/f8f0d0d9-9144-4737-ac70-fac61027d1c2/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: August 2022 - August 2023"
+    },    
+    {
+        "name": "Microsoft Certified: Azure Database Administrator Associate",
+        "link": "https://www.credly.com/badges/d22e8f1d-71f8-40f4-b358-24aa635e8391/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: March 2021 - March 2023"
+    },
+    {
         "name": "Microsoft Certified: AZ-400 Designing and Implementing Microsoft DevOps Solutions",
-        "link": "https://www.youracclaim.com/badges/ae07679d-882b-4f3a-8411-1da37f485890/public_url",
+        "link": "https://www.credly.com/badges/30eaf675-d2a7-4e10-8bc7-9b70b34d8eb0/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: February 2021 - No Expiration date"
     },
     {
+        "name": "Microsoft Certified: Azure Network Engineer Associate (AZ-700)",
+        "link": "https://www.credly.com/badges/68ed457f-c656-4785-a7d8-23f2818cabca/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: February 2022 - Expires on 26 February 2023"
+    },
+    {
+        "name": "Microsoft Certified: Azure Security Engineer Associate (AZ-500)",
+        "link": "https://www.credly.com/badges/6e066c5a-cfc8-4143-8708-6a10aad6ffee/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: July 2021 - Expires on 13 July 2023"
+    },
+    {
+        "name": "Microsoft Certified: Azure Developer Associate (AZ-204)",
+        "link": "https://www.credly.com/badges/fe3d9070-5a1e-4fa3-87da-4cffa2536684/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: March 2021 - Expires on 26 March 2023"
+    },
+    {
         "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
-        "link": "https://www.youracclaim.com/badges/159dc221-6dbe-427a-951e-4837b37a6c2f/public_url",
+        "link": "https://www.credly.com/badges/bb999e47-ec08-4c98-9816-2666391e00b4/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
         "date": "Certification Date: Jan 2021 - Expires on 13 January 2023"
     },
+    {
+        "name": "HashiCorp Certified: Terraform Associate",
+        "link": "https://www.credly.com/badges/03b4951d-0f62-49fa-91d5-165fd27d3748/public_url",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: March 2022 - Expires on 28 March 2023"
+    }, 
     {
         "name": "ITIL Intermediate Service Transition",
         "link": "files/ITIL_SERVICE_TRANSITION.pdf",

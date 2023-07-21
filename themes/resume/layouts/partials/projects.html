@@ -5,8 +5,17 @@
 
         <h2 class="mb-5"><span class="text-primary">Personal</span> Projects</h2>
         <p class="mb-0">In my spare time, I work as a freelance web developer and data analyst.</p>
+        <p></p>
+        <p class="mb-0" id="showroom">Showcase projects are available on my <a href="https://github.com/mggeorgiev" target="_blank">Github</a>. Access to restricted repositories could be granted upon request.</p>
+        <p></p>
         <p>Some of my projects are:</p>
         <p>
+            <a href="https://github.com/mggeorgiev/portfolio.sql" target="_blank">SQL portfolio</a> 
+        </p>
+        <p>
+            <a href="https://github.com/mggeorgiev/apex" target="_blank">Oracle APEX applications</a> 
+        </p>
+        <p id="fleet-management">
             <a href="projects/fleet-management.html">FLEET MANAGEMENT</a> – database applications using Oracle 11 XE and Application Express 5.
             Database design (adherence to DB Normal forms), starts, and snowflakes.
             Creation of tables, indexes, triggers, procedures, sequences, UI.
@@ -14,17 +23,43 @@
             As this version of Oracle XE does not support HTTPS, a reverse proxy server based on Apache was deployed and configured as a SSL off-loader.
             Certificates are based on Let’s Encrypt.
         </p>
-        <p>
+        <p class="mb-0">
             Similar applications include utilities and finance management.
             All applications feed to a read-only reporting server based on MySQL.
             Visualizations are created using Power BI.
+        </p>
+        <p id="powerbi">
+            <a href="projects/powerbi/powerbi.html">PowerBi</a> – a collection of pdfs demostrating various analysis and visualisations.
+            <br>
+            <b>Technologies</b>: PowerBI, data sources - SQL server, Oracle, Postgres.
         </p>
         <p>
             <a href="projects/ec-th.html">EC-TH</a> – Property management platform. The service uses a combination of Razor Views and REST APIs to demonstrate how to modernize applications for
             scalability and cloud and how to expose services via APIs, what is the difference between XML and JSON, Pascal and Camel notations, Code First vs Database
             First migrations etc.
             <br />
-            <b>Technologies</b>: .Net Framework, Bootstrap 4, Entity Framework, Microsoft SQL, jQuerry. Implementation on Azure WebApp + Azure SQL.
+            <b>Technologies</b>: .Net Core, Bootstrap 5, Entity Framework, Microsoft SQL, jQuery. Implementation on Azure WebApp + Azure SQL.
+        </p>
+        <p>
+            <a href="https://www.esobstvenost.eu" target="_blank">esobstvenost.eu</a> – Distribute monthly cost for condomia in accordance with Bulgarian law. The service uses .NET blazor to create a static website hosted on Azure Storage account and exposed with Azure CDN.
+            The deployment is done via Github actions and Azure DevOps pipelines.
+            <br />
+            <b>Technologies</b>: .Net Core, Bootstrap 5, Implementation on Azure Storage Account, Azure Active Directory as identity provider, azure CDN.
+        </p>
+        <p>
+            <a href="https://skills.martingeorgiev.com/" target="_blank">Skills inventory</a> - Interactive skills inventory that facilitate skills tracking and mapping to capabilities. 
+            <br />
+            <b>Technologies</b>: Blazor, C#, .NET EF Core, Azure Active directory, Azure Container registry, Javascript, Terraform, Consul, Nomad GitHub Actions, azure DevOps pipelines. Implementation on Nomad/consul or Azure container instance, Azure SQL or SQL server as a database. Deployed via Github actions. Consists of a blazor front page, application server using .Net Core and a database.
+        </p> 
+        <p>
+            <a href="https://randomnessfe.z6.web.core.windows.net/" target="_blank">Randomness tests</a> - a collection of interview questions that are related to randomness. 
+            <br />
+            <b>Technologies</b>: Blazor, Azure Functions, Azure Container registry, Javascript, Terraform, <a href="https://github.com/mggeorgiev/randomness/" target="_blank">GitHub</a> Actions. Implementation on Azure storage account static web site. Deployed via Github actions. Consists of a blazor front page and a collection of azure functions.
+        </p>        
+        <p>
+            <a href="projects/martingeorgev.info/">martingeorgev.info</a> – Personal portfolio site <a href="https://www.martingeorgiev.info/" target="_blank">www.martingeorgev.info</a>. 
+            <br />
+            <b>Technologies</b>: HUGO, HTML, Terraform, GitHub Actions. Implementation on Azure storage account static web site and an Azure CDN.
         </p>
         <p>
             <b><u>Contoso University</u></b> showcase project for .Net Framework based on the Microsoft MVC tutorial. My implementation uses different approaches compared with
@@ -32,21 +67,17 @@
             <br />
             <b>Technologies</b>: .Net Framework, Bootstrap 4, Entity Framework, Microsoft SQL. Implementation on Azure WebApp + Azure SQL.
         </p>
-
-        <p id="pekarnaudoma">
-            <a href="projects/pekarnaudoma.html">pekarnaudoma.com</a> – creating a web application to replace the existing static web site that must allow personalization of the information per user, ordering, and business intelligence.
-            <br>
-            The project has been discontinues due to business reasons.
-            <br>
-            <b>Technologies</b>: HUGO, HTML, Bootstrap 4 third party services accessible via APIs.
-        </p>
-
         <p id="API">
             How to use the RestFULL <a href="projects/api/index.html">API</a>.
             <br>
             <b>Technologies</b>: HUGO, HTML.
         </p>
-
-        <p id="showroom">Showcase projects are available on my <a href="https://github.com/mggeorgiev" target="_blank">Github</a>. Access to restricted repositories could be granted upon request.</p>
+        <p id="pekarnaudoma">
+            <a href="projects/pekarnaudoma.html">pekarnaudoma.com</a> – creating a web application to replace the existing static web site that must allow personalization of the information per user, ordering, and business intelligence.
+            <br>
+            The project has been discontinued due to business reasons.
+            <br>
+            <b>Technologies</b>: HUGO, HTML, Bootstrap 4 third party services accessible via APIs.
+        </p>
     </div>
 </section>

@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{- partial "google.html" . -}}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="On this page you can find information concerning the benefits and capabilities of the Fleet Management project.">
+    <meta name="author" content="Martin Georgiev">
+
+    <title> {{ .Title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../../css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    {{- partial "nav-project.html" . -}}
+
+    <header class="bg-dark text-white">
+        <div class="container text-center">
+            <h1>{{ .Title }}</h1>
+            <p class="lead">{{ .Description }}</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>About the project</h2>
+                    {{ range .Params.about }}
+                    <p class="lead">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                        <br>
+                        <a href=""><i class="far fa-thumbs-up"></i></a>
+                        <a href="{{ .Params.files }}" target="_blank"><i class="fas fa-wave-square"></i></a>
+                        <a href="{{ .Params.graphs }}"><i class="fas fa-chart-pie"></i></a>
+                        <a href="{{ .Params.predictions }}"> <i class="fas fa-chart-line"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="motivation" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Motivation</h2>
+                    {{ range .Params.motivation }}
+                    <p class="lead">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="challenges">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 id="challenges">Challenges</h2>
+                    {{ range .Params.challenges }}
+                    <p class="lead">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="approach" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Approach</h2>
+                    {{ range .Params.approach }}
+                    <p class="lead">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Offered Services</h2>
+                    <p class="lead">The usage is free for selected users. At the moment, you need to be invited to use the platform. The source code can be obtained under the MIT license and deployed on a customer platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; martingeorgiev.com 2019 - 2021</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

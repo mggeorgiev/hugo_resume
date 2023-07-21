@@ -8,13 +8,13 @@ canonifyURLs = true
     author = "Martin Georgiev"
     firstName = "Martin"
     lastName = "Georgiev"
-	city = "Sofia"
+	city = "Luxembourg"
 	country = "Bulgaria"
     phone = "(359) 89-84-666-89"
-    contactNote = "Solutions Architect"
+    contactNote = "System Designer"
     profileImage = "img/profile.png"
     email = "martin@martingeorgiev.com"
-    description = "Solution Architect experienced in the translation of business requirements into End-to-End IT solutions, in line with the technical architecture. Accountable for the solution in operation, responsible for the solution descriptions, service, and user experience design."
+    description = "System designer, former solution architect, former developer. I specialize in decreasing risks associated with migrations to Azure public cloud and lowering IT expenses through application modernization to reliable and secure cloud architectures."
     favicon = "img/favicon.png"
     # what sections
     showHandles = true
@@ -91,89 +91,3 @@ canonifyURLs = true
     name = "Virtual Card"
     link = "files/MartinGeorgiev-SolutionArchitect.vcf"
     icon = "fa fa-address-card"
-
-	    # what certificates
-
-[[params.certificates]]
-    name = "Microsoft Certified: Azure Solutions Architect Expert"
-    link = "https://www.youracclaim.com/badges/4f8574c0-9fb0-4181-8d85-e9a599685789/linked_in_profile"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Jun 2019 - Expires on 20 June 2021"
-
-[[params.certificates]]
-    name = "Microsoft Certified: DevOps Engineer Expert"
-    link = "https://www.youracclaim.com/badges/2e9abab6-fc46-429c-ab2a-c3fba2965b3f/public_url"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: February 2021 - February 2023"
-
-[[params.certificates]]
-    name = "Microsoft Certified: AZ-400 Designing and Implementing Microsoft DevOps Solutions"
-    link = "https://www.youracclaim.com/badges/ae07679d-882b-4f3a-8411-1da37f485890/public_url"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: February 2021 - No Expiration date"
-
-[[params.certificates]]
-    name = "Microsoft Certified: Azure Administrator Associate (AZ-104)"
-    link = "https://www.youracclaim.com/badges/159dc221-6dbe-427a-951e-4837b37a6c2f/public_url"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Jan 2021 - Expires on 13 January 2023"
-
-[[params.certificates]]
-    name = "Microsoft Certified: Exam 535: Architecting Microsoft Azure Solutions"
-    link = "https://www.youracclaim.com/badges/3a1fb59a-d5ce-41be-b336-2c8bd3a5f5c9/linked_in_profile"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Jun 2018 - No Expiration date"
-
-[[params.certificates]]
-    name = "ITIL Intermediate Service Transition"
-    link = "files/ITIL_SERVICE_TRANSITION.pdf"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Feb 2014 - Present License 1002013033"
-
-[[params.certificates]]
-    name = "ITIL V3 Foundation"
-    link = "files/ITIL_V3.pdf"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: May 2010 – Present License 00136963"
-
-[[params.certificates]]
-    name = "Splunk Certified User"
-    link = "https://splunkcommunities.force.com/customers/apex/customers/apex/EDU_DownloadCertificate?id=a1O0b000004H1c8&retURL=/a1O0b000004H1c8"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Mar 2018 – Present License Cert-231017"
-
-[[params.certificates]]
-    name = "MTCNA - Mikrotik"
-    link = "https://mikrotik.com/training/certificates/c101759c557b64b4b9fd"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Sep 2017 – Sep 2020 License 1709NA1759"
-
-[[params.certificates]]
-    name = "Intermediate Python for Data Science Course"
-    link = ""
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Jan 2018 – Present License 4813462"
-
-[[params.certificates]]
-    name = "edX Verified Professional Certificate for DAT201x: Querying with Transact- SQL"
-    link = "https://courses.edx.org/certificates/2368f398f413451d95ea37188c026a95"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Jul 2017 – Present License 2368f398f413451d95ea37188c026a95"
-
-[[params.certificates]]
-    name = "edX Verified Professional Certificate for DAT222x: Essential Statistics for Data Analysis using Excel"
-    link = "https://courses.edx.org/certificates/68d5c520c5374dcebff6924071ed0df3"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: Jun 2017 – Present License 68d5c520c5374dcebff6924071ed0df3"
-
-[[params.certificates]]
-    name = "edX Professional Certificate for Windows PowerShell Fundamentals"
-    link = "https://s3.amazonaws.com/verify.edx.org/downloads/3518418274064a9b8f859bef30b03c52/Certificate.pdf"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: May 2015 – Present"
-
-[[params.certificates]]
-    name = "edX Verified Certificate for Introduction to Linux"
-    link = "https://s3.amazonaws.com/verify.edx.org/downloads/9401b4788ef44624ad10b6310ca5420c/Certificate.pdf"
-    icon = "fa-li fa fa-trophy text-warning"
-	date = "Certification Date: May 2015 – Present"
