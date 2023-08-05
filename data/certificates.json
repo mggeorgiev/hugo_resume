@@ -36,6 +36,12 @@
         "date": "Certification Date: March 2021 - March 2023"
     },
     {
+        "name": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
+        "link": "https://learn.microsoft.com/api/credentials/share/en-us/mggeorgiev/1850DBE7297C7494?sharingId=82F52B805604FDC7",
+        "icon": "fa-li fa fa-trophy text-warning",
+        "date": "Certification Date: August 2023 - August 2023"
+    },
+    {
         "name": "Microsoft Certified: AZ-400 Designing and Implementing Microsoft DevOps Solutions",
         "link": "https://www.credly.com/badges/30eaf675-d2a7-4e10-8bc7-9b70b34d8eb0/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
