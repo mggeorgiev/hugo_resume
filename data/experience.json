@@ -20,7 +20,7 @@
         ],
         "technologies": 
         [
-            "openToFu/Terraform",
+            "OpenToFu/Terraform",
             "Azure DevOps",
             "Azure Entra ID",
             "Azure CLI",
