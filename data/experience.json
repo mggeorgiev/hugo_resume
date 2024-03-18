@@ -20,13 +20,14 @@
         ],
         "technologies": 
         [
-            "Terraform",
+            "openToFu/Terraform",
             "Azure DevOps",
             "Azure Entra ID",
             "Azure CLI",
             "ARM templates",
             "Azure IAAS",
-            "Azure PAAS"
+            "Azure PAAS",
+            "Kusto"
         ]
     },
     {
