@@ -142,7 +142,7 @@ function toType( obj ) {
 
 
 var
-	version = "3.4.1",
+	version = "3.7.1",
 
 	// Define a local copy of jQuery
 	jQuery = function( selector, context ) {
