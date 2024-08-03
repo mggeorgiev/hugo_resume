@@ -1,0 +1,84 @@
+# This workflow will build and deploy the static website.
+#
+# To use this workflow, you will need to set up a .github/ci.yml
+# file with configuration. 
+
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Update theme
+        # (Optional) If you have the theme added as submodule, you can pull it and use the most updated version
+        run: git submodule update --init --recursive
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        # Remove --minify tag if you do not need it
+        # Docs: https://gohugo.io/hugo-pipes/minification/
+        run: hugo
+
+      - name: Generate build number
+        id: buildnumber
+        uses: einaregilsson/build-number@v3 
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}        
+      
+      - name: Example step with build number
+        uses: actions/hello-world-docker-action@v1
+        with:
+          who-to-greet: ${{ steps.buildnumber.outputs.build_number }}
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
+
+      - name: Azure Container Registry login
+        uses: azure/docker-login@v1
+        with:
+          login-server: martingeorgiev.azurecr.io
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+
+      - name: Build and Push Docker image
+        run: |
+          docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievcom:latest
+          docker push martingeorgiev.azurecr.io/martingeorgievcom:latest
+          docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievcom:$(date +'%Y.%m.%d').${{ github.run_number }}
+          docker push martingeorgiev.azurecr.io/martingeorgievcom:$(date +'%Y.%m.%d').${{ github.run_number }}
+      
+      - name: Azure login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Delete old files from blob storage
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob delete-batch --source '$web' --account-name martingeorgievcom
+              
+      - name: Upload to blob storage
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob upload-batch --account-name martingeorgievcom -d '$web' -s .
+
+      - name: Purge CDN endpoint
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az cdn endpoint purge --content-paths "/*" --profile-name martingeorgievcom --name martingeorgievcom --resource-group martingeorgievcom
+
+      - name: Azure logout
+        run: az logout
+        if: always()
