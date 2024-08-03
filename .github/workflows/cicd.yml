@@ -71,7 +71,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name martingeorgievcom -d '$web' -s .
+            az storage blob upload-batch --account-name martingeorgievcom -d '$web' -s ./public/
 
       - name: Purge CDN endpoint
         uses: azure/CLI@v1
