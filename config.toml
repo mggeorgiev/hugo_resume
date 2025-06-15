@@ -1,4 +1,4 @@
-baseURL = "https://martingeorgiev.com/"
+baseURL = "https://www.martingeorgiev.com/"
 languageCode = "en-us"
 title = "Martin Georgiev"
 theme = "resume"
@@ -67,12 +67,12 @@ canonifyURLs = true
 
 [[params.handles]]
     name = "GitHub"
-    link = "https://github.com/mggeorgiev/"
+    link = "https://www.github.com/mggeorgiev/"
 	icon = "fab fa-github"
 
 [[params.handles]]
     name = "Twitter"
-    link = "https://twitter.com/mggeorgiev"
+    link = "https://www.twitter.com/mggeorgiev"
     icon = "fab fa-twitter"
 
 

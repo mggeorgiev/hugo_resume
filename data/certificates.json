@@ -3,7 +3,7 @@
         "name": "Microsoft Certified: Azure Solutions Architect Expert",
         "link": "https://www.credly.com/badges/c1c81249-53c1-491e-af54-567d4540a468/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: Jun 2019 - December 2024"
+        "date": "Certification Date: Jun 2019 - December 2025"
     },
     {
         "name": "Microsoft Certified: Azure Solutions Architect Expert (Legacy)",
@@ -27,19 +27,19 @@
         "name": "Microsoft Certified: Cybersecurity Architect Expert",
         "link": "https://www.credly.com/badges/81752e77-0fe8-4ae2-8b43-989959b158ef/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: August 2022 - August 2025"
+        "date": "Certification Date: August 2022 - August 2026"
     },    
     {
         "name": "Microsoft Certified: Azure Database Administrator Associate",
         "link": "https://www.credly.com/badges/d22e8f1d-71f8-40f4-b358-24aa635e8391/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: March 2021 - March 2025"
+        "date": "Certification Date: March 2021 - March 2026"
     },
     {
         "name": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
         "link": "https://learn.microsoft.com/api/credentials/share/en-us/mggeorgiev/1850DBE7297C7494?sharingId=82F52B805604FDC7",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: August 2023 - August 2025"
+        "date": "Certification Date: August 2023 - August 2026"
     },
     {
         "name": "Microsoft Certified: AZ-400 Designing and Implementing Microsoft DevOps Solutions",
@@ -51,31 +51,31 @@
         "name": "Microsoft Certified: Azure Network Engineer Associate (AZ-700)",
         "link": "https://www.credly.com/badges/68ed457f-c656-4785-a7d8-23f2818cabca/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: February 2022 - Expires on 26 February 2025"
+        "date": "Certification Date: February 2022 - Expires on 26 February 2026"
     },
     {
         "name": "Microsoft Certified: Azure Data Engineer Associate",
         "link": "https://learn.microsoft.com/api/credentials/share/en-us/mggeorgiev/66E766B81E18DAEA?sharingId=82F52B805604FDC7",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: September 2023 - Expires September 2025"
+        "date": "Certification Date: September 2023 - Expires September 2026"
     },
     {
         "name": "Microsoft Certified: Azure Security Engineer Associate (AZ-500)",
         "link": "https://www.credly.com/badges/6e066c5a-cfc8-4143-8708-6a10aad6ffee/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: July 2021 - Expires on 13 July 2025"
+        "date": "Certification Date: July 2021 - Expires on 13 July 2026"
     },
     {
         "name": "Microsoft Certified: Azure Developer Associate (AZ-204)",
         "link": "https://www.credly.com/badges/fe3d9070-5a1e-4fa3-87da-4cffa2536684/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: March 2021 - Expires on 26 March 2025"
+        "date": "Certification Date: March 2021 - Expires on 26 March 2026"
     },
     {
         "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
         "link": "https://www.credly.com/badges/bb999e47-ec08-4c98-9816-2666391e00b4/public_url",
         "icon": "fa-li fa fa-trophy text-warning",
-        "date": "Certification Date: Jan 2021 - Expires on 13 January 2024"
+        "date": "Certification Date: Jan 2021 - Expires on 13 January 2026"
     },
     {
         "name": "HashiCorp Certified: Terraform Associate",

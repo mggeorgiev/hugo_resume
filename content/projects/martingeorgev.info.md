@@ -1,5 +1,5 @@
 ---
-title: "martingeorgiev.info"
+title: "www.martingeorgiev.info"
 date: 2022-12-30T14:47:40+03:00
 draft: false
 layout : "projects"
@@ -21,5 +21,6 @@ approach: ["The infrastructure was created using terraform together will all the
 . Examples are available at https://github.com/mggeorgiev/azure."
             ,"Deploying manually was not a problem but I found a way to combine uploading the content with a purge of the cdn into a Github action."
             ,"All details are available in Github."]
+services: true
 # markdown: "test"
 ---

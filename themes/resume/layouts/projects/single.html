@@ -35,14 +35,18 @@
         </div>
     </header>
 
-    <section id="about">
+<!-- Make every off section with a different style. -->
+{{ $index := 0 }}
+
+{{ if .Params.about }}
+    <section id="about" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>About the project</h2>
                     {{ range .Params.about }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                         <br>
@@ -55,53 +59,83 @@
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
+{{ end }}
 
-    <section id="motivation" class="bg-light">
+{{ if .Params.motivation }}
+    <section id="motivation" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>Motivation</h2>
+                    <h2 id="motivation">Motivation</h2>
                     {{ range .Params.motivation }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                 </div>
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
+{{ end }}
 
-    <section id="challenges">
+{{ if .Params.challenges }}
+    <section id="challenges" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 id="challenges">Challenges</h2>
                     {{ range .Params.challenges }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                 </div>
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
+{{ end }}
 
-    <section id="approach" class="bg-light">
+{{ if .Params.approach }}
+    <section id="approach" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Approach</h2>
                     {{ range .Params.approach }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                 </div>
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
+{{ end }}
 
-    <section id="services">
+{{ if .Params.markdown }}
+    <section id="markdown" class="{{ if modBool $index 2 }}bg-light{{ end }}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>{{ .Params.markdown_title }}</h2>
+                    {{ range .Params.markdown }}
+                    <p class="lead">
+                        {{ . | markdownify }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ $index = add $index 1 }}
+{{ end }}
+
+{{ if .Params.services }}
+    <section id="services" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -111,11 +145,13 @@
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
+{{ end }}
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; martingeorgiev.com 2019 - 2021</p>
+            <p class="m-0 text-center text-white">Copyright &copy; martingeorgiev.com 2019 - 2025</p>
         </div>
         <!-- /.container -->
     </footer>
