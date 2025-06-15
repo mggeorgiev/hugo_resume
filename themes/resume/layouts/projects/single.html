@@ -35,15 +35,18 @@
         </div>
     </header>
 
+<!-- Make every off section with a different style. -->
+{{ $index := 0 }}
+
 {{ if .Params.about }}
-    <section id="about">
+    <section id="about" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>About the project</h2>
                     {{ range .Params.about }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                         <br>
@@ -56,61 +59,65 @@
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
 {{ end }}
 
 {{ if .Params.motivation }}
-    <section id="challenges">
+    <section id="motivation" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 id="challenges">Challenges</h2>
-                    {{ range .Params.challenges }}
+                    <h2 id="motivation">Motivation</h2>
+                    {{ range .Params.motivation }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                 </div>
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
 {{ end }}
 
 {{ if .Params.challenges }}
-    <section id="challenges">
+    <section id="challenges" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 id="challenges">Challenges</h2>
                     {{ range .Params.challenges }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                 </div>
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
 {{ end }}
 
 {{ if .Params.approach }}
-    <section id="approach" class="bg-light">
+    <section id="approach" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Approach</h2>
                     {{ range .Params.approach }}
                     <p class="lead">
-                        {{ . }}
+                        {{ . | markdownify }}
                     </p>
                     {{ end }}
                 </div>
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
 {{ end }}
 
 {{ if .Params.markdown }}
-    <section id="markdown" class="bg-light">
+    <section id="markdown" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -124,10 +131,11 @@
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
 {{ end }}
 
 {{ if .Params.services }}
-    <section id="services">
+    <section id="services" class="{{ if modBool $index 2 }}bg-light{{ end }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -137,6 +145,7 @@
             </div>
         </div>
     </section>
+    {{ $index = add $index 1 }}
 {{ end }}
 
     <!-- Footer -->
