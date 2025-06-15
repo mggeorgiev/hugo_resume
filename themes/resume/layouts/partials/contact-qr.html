@@ -1,15 +1,33 @@
-<div class="p0 m0 text-center" >
-  <p class="card-text">Scan contact card</p>
-  <img id="qr-code" class="card-img-top" alt="Scannable QR code with contact info" src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=MECARD:N:{{ .Param "lastName" }},{{ .Param "firstName" }};{{ .Param "address" }};TEL:{{ .Param "phone" }};EMAIL:{{ .Param "email" }};URL:{{ .Site.BaseURL }};NOTE:{{ .Param "contactNote" }};;"/>
-</div>
-<!--
+<!-- <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img id="qr-code" class="img-responsive" alt="Scannable QR code with contact info" src="https://qrcode.tec-it.com/API/QRCode?data=BEGIN%3aVCARD%0d%0aVERSION%3a3.0%0d%0aFN%3bCHARSET%3dUTF-8%3aMartin+Georgiev%0d%0aN%3bCHARSET%3dUTF-8%3aGeorgiev%3bMartin%3b%3b%3b%0d%0aTEL%3bTYPE%3dHOME%2cVOICE%3a%2b359+89+84+666+89%0d%0aEMAIL%3acontact%40martingeorgiev.com%0d%0aURL%3ahttps%3a%2f%2fwww.martingeorgiev.com%0d%0aEND%3aVCARD&backcolor=%23ffffff" />
+      </div>
+    </div>
+  </div>
+</div> -->
+
 <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
-        <img id="qr-code" class="img-responsive" alt="Scannable QR code with contact info" src="https://chart.googleapis.com/chart?cht=qr&amp;chs=150x150&amp;chl=MECARD:N:Georgiev,Martin;;TEL:%28359%29%2089-84-666-89;EMAIL:mggeorgiev%40gmail.com;URL:https://martingeorgiev.com/;NOTE:Solutions%20Architect;;">
+        <img id="qr-code" class="img-responsive" alt="Scannable QR code with contact info" src="../img/qr/qr-code.png" />
       </div>
     </div>
   </div>
 </div>
--->
+
+<!-- <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        {{ $text := "https://www.martingeorgiev.com/files/MartinGeorgiev-SolutionArchitect.vcf" }}
+        {{ with images.QR $text }}
+          <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+</div> -->
