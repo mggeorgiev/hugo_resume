@@ -1,5 +1,5 @@
 ---
-title: "martingeorgiev.info"
+title: "www.martingeorgiev.info"
 date: 2022-12-30T14:47:40+03:00
 draft: false
 layout : "projects"
