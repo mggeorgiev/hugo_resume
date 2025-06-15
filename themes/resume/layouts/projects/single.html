@@ -121,7 +121,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>Markdown</h2>
+                    <h2>{{ .Params.markdown_title }}</h2>
                     {{ range .Params.markdown }}
                     <p class="lead">
                         {{ . | markdownify }}
