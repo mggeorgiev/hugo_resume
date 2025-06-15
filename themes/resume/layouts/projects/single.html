@@ -35,6 +35,7 @@
         </div>
     </header>
 
+{{ if .Params.about }}
     <section id="about">
         <div class="container">
             <div class="row">
@@ -55,22 +56,9 @@
             </div>
         </div>
     </section>
+{{ end }}
 
-    <section id="motivation" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Motivation</h2>
-                    {{ range .Params.motivation }}
-                    <p class="lead">
-                        {{ . }}
-                    </p>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </section>
-
+{{ if .Params.motivation }}
     <section id="challenges">
         <div class="container">
             <div class="row">
@@ -85,7 +73,26 @@
             </div>
         </div>
     </section>
+{{ end }}
 
+{{ if .Params.challenges }}
+    <section id="challenges">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 id="challenges">Challenges</h2>
+                    {{ range .Params.challenges }}
+                    <p class="lead">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
+
+{{ if .Params.approach }}
     <section id="approach" class="bg-light">
         <div class="container">
             <div class="row">
@@ -100,7 +107,26 @@
             </div>
         </div>
     </section>
+{{ end }}
 
+{{ if .Params.markdown }}
+    <section id="markdown" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Markdown</h2>
+                    {{ range .Params.markdown }}
+                    <p class="lead">
+                        {{ . | markdownify }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
+
+{{ if .Params.services }}
     <section id="services">
         <div class="container">
             <div class="row">
@@ -111,11 +137,12 @@
             </div>
         </div>
     </section>
+{{ end }}
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; martingeorgiev.com 2019 - 2021</p>
+            <p class="m-0 text-center text-white">Copyright &copy; martingeorgiev.com 2019 - 2025</p>
         </div>
         <!-- /.container -->
     </footer>
