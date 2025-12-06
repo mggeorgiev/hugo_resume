@@ -2,7 +2,7 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Martin Georgiev
 N:Georgiev;Martin;;;
-item1.EMAIL;TYPE=INTERNET:mggeorgiev@gmail.com
+item1.EMAIL;TYPE=INTERNET:contact@martingeorgiev.com
 item1.X-ABLabel:
 item2.TEL:+359 89 846 6689
 item2.X-ABLabel:
@@ -12,4 +12,8 @@ item4.TITLE:Solution Architect
 item4.X-ABLabel:
 item5.URL:https\://www.martingeorgiev.com
 item5.X-ABLabel:
+KIND:individual
+LOGO;TYPE=PNG:http://example.com/logo.png
+PHOTO;TYPE=PNG;VALUE=URI:https://www.martingeorgiev.com/img/profile.png
+ROLE:Manager
 END:VCARD
