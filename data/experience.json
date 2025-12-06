@@ -1,5 +1,36 @@
 [
     {
+        "role":"SENIOR SOLUTIONS ARCHITECT",
+        "company":"GENTIS LUXEMBOURG S.A.",
+        "startDate": "September 2024",
+        "endDate": "November 2025",
+        "description" : "My responsibilities include support the cloud adoption and operations by:",
+        "responsibilities" : 
+        [
+            "Business Requirements Interpretation: Analysed and interpreted business requirements to define solution scope, objectives, and constraints.",
+            "Solution Intent Establishment: Articulated the overarching solution intent, ensuring alignment with business goals, stakeholder expectations, and architectural principles.",
+            "Architecture Alignment: Ensured solution designs conformed to architecture standards and integrated seamlessly with existing technical ecosystems.",
+            "Risk Identification & Mitigation: Proactively identified potential technical design risks and proposed mitigation strategies during early design phases.",
+            "Built-in Quality Supervision Oversaw quality assurance throughout the solution lifecycle, embedding quality gates and validation mechanisms into design and delivery.",
+            "•Innovation Enablement Identified opportunities for innovation and continuous improvement, introducing new design patterns, tools, and practices to enhance solution value."
+        ],
+        "achievements": [
+            
+        ],
+        "technologies": 
+        [
+            "Bicep",
+            "Azure DevOps",
+            "Azure Entra ID",
+            "Azure CLI",
+            "ARM templates",
+            "Azure IAAS",
+            "Azure PAAS",
+            "Azure iPaaS",
+            "Kusto"
+        ]
+    },
+    {
         "role":"SENIOR MANAGER - IT",
         "company":"DELOITTE GLOBAL SERVICES Sàrl",
         "startDate": "April 2023",
@@ -7,9 +38,9 @@
         "description" : "My responsibilities include support the cloud adoption and operations by:",
         "responsibilities" : 
         [
-            "#Cloud-Native Application Solutions: architecting, designed, and delivered cloud-native applications, ensuring that these applications leverage the platform scalability, high availability, and efficient resource utilization",
-            "#SAAS: Designing innovative and secure proprietary solutions that cater to multiple tenants or customers, providing flexibility and cost-effectiveness to end-users while maintaining isolation and data security for each tenant",
-            "#Automation and Infrastructure as Code (IaC): enabling consistent, repeatable, and error-free deployments, reducing manual effort and ensuring better reliability of the infrastructure",
+            "Cloud-Native Application Solutions: architecting, designed, and delivered cloud-native applications, ensuring that these applications leverage the platform scalability, high availability, and efficient resource utilization",
+            "SAAS: Designing innovative and secure proprietary solutions that cater to multiple tenants or customers, providing flexibility and cost-effectiveness to end-users while maintaining isolation and data security for each tenant",
+            "Automation and Infrastructure as Code (IaC): enabling consistent, repeatable, and error-free deployments, reducing manual effort and ensuring better reliability of the infrastructure",
             "Skill Development and Capability Building: By providing training, guidance, and hands-on support, I have empowered teams to efficiently utilize Azure services and best practices"
         ],
         "achievements": [
