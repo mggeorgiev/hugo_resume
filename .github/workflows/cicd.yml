@@ -28,11 +28,10 @@ jobs:
         run: hugo
 
       - name: Generate build number
-        id: buildnumber
-        uses: einaregilsson/build-number@v3 
+        uses: onyxmueller/build-tag-number@v1.0.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}        
-      
+          token: ${{secrets.github_token}}  
+
       - name: Example step with build number
         uses: actions/hello-world-docker-action@v1
         with:
