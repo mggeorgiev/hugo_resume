@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Hugo Site
         run: |
-          hugo --config ./martingeorgiev/config.toml --themesDir ../.. --destination ./public
+          hugo
 
       # This step handles the actual deployment to Azure SWA
       - name: Deploy to Azure SWA
