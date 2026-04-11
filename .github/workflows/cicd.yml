@@ -11,14 +11,14 @@ jobs:
 
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
 
       - name: Update theme
         # (Optional) If you have the theme added as submodule, you can pull it and use the most updated version
         run: git submodule update --init --recursive
 
       - name: Setup hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
 
@@ -28,11 +28,10 @@ jobs:
         run: hugo
 
       - name: Generate build number
-        id: buildnumber
-        uses: einaregilsson/build-number@v3 
+        uses: onyxmueller/build-tag-number@v1.0.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}        
-      
+          token: ${{secrets.github_token}}  
+
       - name: Example step with build number
         uses: actions/hello-world-docker-action@v1
         with:
@@ -43,7 +42,7 @@ jobs:
         run: echo "date=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
 
       - name: Azure Container Registry login
-        uses: azure/docker-login@v1
+        uses: azure/docker-login@v2
         with:
           login-server: martingeorgiev.azurecr.io
           username: ${{ secrets.ACR_USERNAME }}
@@ -57,27 +56,21 @@ jobs:
           docker push martingeorgiev.azurecr.io/martingeorgievcom:$(date +'%Y.%m.%d').${{ github.run_number }}
       
       - name: Azure login
-        uses: azure/login@v1
+        uses: azure/login@v3
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Delete old files from blob storage
-        uses: azure/CLI@v1
+        uses: azure/CLI@v3
         with:
           inlineScript: |
             az storage blob delete-batch --source '$web' --account-name martingeorgievcom
               
       - name: Upload to blob storage
-        uses: azure/CLI@v1
+        uses: azure/CLI@v3
         with:
           inlineScript: |
             az storage blob upload-batch --account-name martingeorgievcom -d '$web' -s ./public/
-
-      - name: Purge CDN endpoint
-        uses: azure/CLI@v1
-        with:
-          inlineScript: |
-            az cdn endpoint purge --content-paths "/*" --profile-name martingeorgievcom --name martingeorgievcom --resource-group martingeorgievcom
 
       - name: Azure logout
         run: az logout

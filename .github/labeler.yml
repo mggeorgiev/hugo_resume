@@ -1,0 +1,11 @@
+# .github/labeler.yml
+
+# Add 'hugo-site' label to PRs that change files in the martingeorgiev folder
+hugo-site:
+  - changed-files:
+    - any-glob-to-any-file: 'martingeorgiev/**/*'
+
+# Add 'pipeline' label for changes to github workflows
+pipeline:
+  - changed-files:
+    - any-glob-to-any-file: '.github/workflows/*'
