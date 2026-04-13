@@ -5,3 +5,9 @@
 .vs/VSWorkspaceState.json
 public/*
 .hugo_build.lock
+
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.toml

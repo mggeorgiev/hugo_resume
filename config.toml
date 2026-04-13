@@ -4,6 +4,20 @@ title = "Martin Georgiev"
 theme = "resume"
 canonifyURLs = true
 
+[security]
+  # Enable Go template sandboxing
+  enableInlineShortcodes = false
+  [security.gomarkdown]
+    allowDangerousAttributes = false
+    allowDangerousUrls = false
+
+# ============================================================
+# SECURITY: Content-Security-Policy must be set at server/CDN level
+# For Azure Static Web Apps: Azure Portal → Configuration → Security headers
+# Recommended CSP:
+# default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com
+# ============================================================
+
 [params]
     author = "Martin Georgiev"
     firstName = "Martin"
@@ -32,7 +46,9 @@ canonifyURLs = true
     showPrivacy = true
 
 [params.google.analytics]
-    trackerID = "UA-110491290-1"
+    trackerID = "G-XXXXXXXXXX"
+    # NOTE: Replace G-XXXXXXXXXX with your actual GA4 Measurement ID
+    # Migration from Universal Analytics (UA) completed - UA was sunset July 2024
 
 [outputFormats]
   [outputFormats.JSON]

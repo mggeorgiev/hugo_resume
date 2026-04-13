@@ -1,16 +1,18 @@
 <head>
     {{- partial "google.html" . -}}
+    {{- partial "security-headers.html" . -}}
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="On this site you can find information about Martin Georgiev's IT projects, approach to solving business problens, architectures.">
     <meta name="author" content="{{ .Site.Params.author}}">
-    <meta name="generator" content="Hugo {{ .Site.Hugo.Version }}" />
     <meta property="og:title" content="{{ .Site.Title }}" />
     <meta property="og:image" content="{{ .Site.Params.profileImage | relURL }}" />
     <meta name="description" content="{{ .Site.Params.description }}">
     <meta property="og:description" content=" {{ .Site.Params.description }}" />
+    {{- if and .Page.Params.redirect (hasPrefix .Page.Params.redirect "https://www.martingeorgiev.com") }}
     <meta http-equiv="refresh" content="0; URL='{{ .Page.Params.redirect }}'" />
+    {{- end }}
 
     <title>{{ .Site.Title }}</title>
     <link rel="shortcut icon" href="{{ .Params.favicon }}">
@@ -25,6 +27,4 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
-
-    <meta name="generator" content="Hugo {{ .Site.Hugo.Version }}" />
 </head>
