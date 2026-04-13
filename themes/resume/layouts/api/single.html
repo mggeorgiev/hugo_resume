@@ -1,10 +1,13 @@
 <head>
     {{- partial "google.html" . -}}
+    {{- partial "security-headers.html" . -}}
 
     <meta name="author" content="{{ .Site.Params.author}}">
     <meta name="generator" content="Hugo {{ .Site.Hugo.Version }}" />
     <meta property="og:title" content="{{ .Site.Title }}" />
+    {{- if and .Page.Params.redirect (hasPrefix .Page.Params.redirect "https://www.martingeorgiev.com") }}
     <meta http-equiv="refresh" content="0; URL='{{ .Page.Params.redirect }}'" />
+    {{- end }}
 
     <title>{{ .Site.Title }}</title>
 

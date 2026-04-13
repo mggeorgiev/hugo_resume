@@ -4,6 +4,13 @@ title = "Martin Georgiev"
 theme = "resume"
 canonifyURLs = true
 
+[security]
+  # Enable Go template sandboxing
+  enableInlineShortcodes = false
+  [security.gomarkdown]
+    allowDangerousAttributes = false
+    allowDangerousUrls = false
+
 [params]
     author = "Martin Georgiev"
     firstName = "Martin"
